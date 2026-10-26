@@ -9,11 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <!-- Height is wrap_content with an actionBarSize minimum so the status-bar inset
+         (added as top padding at runtime) grows the bar instead of clipping its title. -->
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_height="wrap_content"
         android:layout_gravity="top"
+        android:minHeight="?attr/actionBarSize"
         android:background="@color/scan_scrim"
         android:theme="@style/ThemeOverlay.Material3.Dark"
         app:title="@string/app_name" />
@@ -51,12 +54,27 @@
             android:paddingEnd="16dp"
             android:paddingBottom="8dp">
 
-            <TextView
-                android:id="@+id/result_type"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?attr/textAppearanceLabelLarge"
-                android:textColor="?attr/colorPrimary" />
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/result_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:importantForAccessibility="no"
+                    android:tint="?attr/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/result_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textAppearance="?attr/textAppearanceLabelLarge"
+                    android:textColor="?attr/colorPrimary" />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/result_content"

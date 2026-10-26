@@ -6,10 +6,15 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.view.ViewGroup
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updateLayoutParams
+import androidx.core.view.updatePadding
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.zxing.ResultPoint
@@ -57,8 +62,32 @@ class ScanActivity : AppCompatActivity() {
         binding.barcodeView.setStatusText("")
         binding.btnScanAgain.setOnClickListener { viewModel.scanAgain() }
 
+        applyWindowInsets()
         viewModel.state.observe(this) { render(it) }
     }
+
+    /**
+     * Edge-to-edge is forced on Android 15+, so content draws under the system bars.
+     * Keep the toolbar below the status bar and the bottom chrome clear of the
+     * navigation bar, whatever the bar sizes or nav mode.
+     */
+    private fun applyWindowInsets() {
+        val cardBase = dpToPx(12)
+        val promptBase = dpToPx(48)
+        ViewCompat.setOnApplyWindowInsetsListener(binding.root) { _, insets ->
+            val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            binding.toolbar.updatePadding(top = bars.top)
+            binding.resultCard.updateLayoutParams<ViewGroup.MarginLayoutParams> {
+                bottomMargin = bars.bottom + cardBase
+            }
+            binding.promptText.updateLayoutParams<ViewGroup.MarginLayoutParams> {
+                bottomMargin = bars.bottom + promptBase
+            }
+            insets
+        }
+    }
+
+    private fun dpToPx(dp: Int): Int = (dp * resources.displayMetrics.density).toInt()
 
     override fun onResume() {
         super.onResume()
@@ -97,14 +126,17 @@ class ScanActivity : AppCompatActivity() {
     }
 
     private fun showResult(content: ScannedContent) {
+        binding.resultIcon.setImageResource(typeIcon(content))
         binding.resultType.setText(typeLabel(content))
         binding.resultContent.text = contentSummary(content)
         binding.actionButtons.removeAllViews()
-        for (action in ScanActions.forContent(content)) {
-            val button = layoutInflater.inflate(
-                R.layout.item_action_button, binding.actionButtons, false
-            ) as MaterialButton
+        ScanActions.forContent(content).forEachIndexed { index, action ->
+            // The first action is primary: a filled button. The rest are tonal.
+            val layout = if (index == 0) R.layout.item_action_button_primary else R.layout.item_action_button
+            val button = layoutInflater.inflate(layout, binding.actionButtons, false) as MaterialButton
             button.setText(actionLabel(action))
+            button.setIconResource(actionIcon(action))
+            button.iconGravity = MaterialButton.ICON_GRAVITY_TEXT_START
             button.setOnClickListener { actionRunner.run(action, content) }
             binding.actionButtons.addView(button)
         }
@@ -164,6 +196,33 @@ class ScanActivity : AppCompatActivity() {
         ScanAction.MAP -> R.string.action_map
         ScanAction.ADD_EVENT -> R.string.action_add_event
         ScanAction.ADD_CONTACT -> R.string.action_add_contact
+    }
+
+    private fun typeIcon(content: ScannedContent): Int = when (content) {
+        is ScannedContent.Url -> R.drawable.ic_link
+        is ScannedContent.Wifi -> R.drawable.ic_wifi
+        is ScannedContent.Phone -> R.drawable.ic_call
+        is ScannedContent.Sms -> R.drawable.ic_sms
+        is ScannedContent.Email -> R.drawable.ic_email
+        is ScannedContent.Geo -> R.drawable.ic_place
+        is ScannedContent.Event -> R.drawable.ic_event
+        is ScannedContent.Contact -> R.drawable.ic_person
+        is ScannedContent.Text -> R.drawable.ic_text
+    }
+
+    private fun actionIcon(action: ScanAction): Int = when (action) {
+        ScanAction.OPEN -> R.drawable.ic_open
+        ScanAction.COPY -> R.drawable.ic_copy
+        ScanAction.SHARE -> R.drawable.ic_share
+        ScanAction.WEB_SEARCH -> R.drawable.ic_search
+        ScanAction.WIFI_CONNECT -> R.drawable.ic_wifi
+        ScanAction.WIFI_COPY_PASSWORD -> R.drawable.ic_key
+        ScanAction.DIAL -> R.drawable.ic_call
+        ScanAction.SMS -> R.drawable.ic_sms
+        ScanAction.EMAIL -> R.drawable.ic_email
+        ScanAction.MAP -> R.drawable.ic_place
+        ScanAction.ADD_EVENT -> R.drawable.ic_event
+        ScanAction.ADD_CONTACT -> R.drawable.ic_person_add
     }
 
     private fun contentSummary(content: ScannedContent): String = when (content) {
