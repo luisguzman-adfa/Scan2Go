@@ -15,12 +15,17 @@
         android:theme="@style/Theme.Scan2Go">
 
         <activity
-            android:name=".presentation.ScanActivity"
-            android:exported="true">
+            android:name=".presentation.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Scan2Go.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".presentation.ScanActivity"
+            android:exported="false" />
     </application>
 </manifest>

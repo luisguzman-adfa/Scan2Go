@@ -5,4 +5,10 @@
     <style name="Theme.Scan2Go" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/brand_primary</item>
     </style>
+
+    <!-- Splash: solid base color behind the branded intro (no white flash on launch). -->
+    <style name="Theme.Scan2Go.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="android:windowBackground">@color/splash_bg</item>
+    </style>
 </resources>
