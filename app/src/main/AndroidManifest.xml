@@ -6,6 +6,12 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
+    <!-- Package visibility (API 30+) for the Knowledge to Go hand-off: name the one package we
+         check for and launch. Least-privilege: not QUERY_ALL_PACKAGES, and not a permission. -->
+    <queries>
+        <package android:name="org.appdevforall.k2go" />
+    </queries>
+
     <application
         android:name=".Scan2GoApp"
         android:allowBackup="true"

@@ -76,7 +76,11 @@ object ContentParser {
                 raw = rawText,
             )
 
-            else -> ScannedContent.Text(rawText)
+            // K2Go payloads are compact JSON, which ZXing classifies as plain text. Name the
+            // two Knowledge to Go codes before falling back to generic text.
+            else -> K2GoPayload.detect(rawText)
+                ?.let { ScannedContent.K2Go(it, rawText) }
+                ?: ScannedContent.Text(rawText)
         }
     }
 }

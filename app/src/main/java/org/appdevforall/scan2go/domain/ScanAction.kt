@@ -37,6 +37,10 @@ object ScanActions {
         is ScannedContent.Geo -> listOf(ScanAction.MAP, ScanAction.COPY)
         is ScannedContent.Event -> listOf(ScanAction.ADD_EVENT, ScanAction.COPY)
         is ScannedContent.Contact -> listOf(ScanAction.ADD_CONTACT, ScanAction.COPY, ScanAction.SHARE)
+        // K2Go payloads are not actionable by a generic reader (no URL to open, no number
+        // to dial). Scan to Go copies/shares the raw code; the open hand-off is a dialog.
+        is ScannedContent.K2Go -> listOf(ScanAction.COPY, ScanAction.SHARE)
+
         is ScannedContent.Text -> listOf(ScanAction.COPY, ScanAction.SHARE, ScanAction.WEB_SEARCH)
     }
 }

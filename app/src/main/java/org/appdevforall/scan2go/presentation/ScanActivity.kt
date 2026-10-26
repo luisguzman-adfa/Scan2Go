@@ -23,6 +23,7 @@ import com.journeyapps.barcodescanner.BarcodeCallback
 import com.journeyapps.barcodescanner.BarcodeResult
 import org.appdevforall.scan2go.R
 import org.appdevforall.scan2go.databinding.ActivityScanBinding
+import org.appdevforall.scan2go.domain.K2GoFeature
 import org.appdevforall.scan2go.domain.ScanAction
 import org.appdevforall.scan2go.domain.ScanActions
 import org.appdevforall.scan2go.domain.ScannedContent
@@ -38,6 +39,10 @@ class ScanActivity : AppCompatActivity() {
     private lateinit var binding: ActivityScanBinding
     private val viewModel: ScanViewModel by viewModels()
     private lateinit var actionRunner: ActionRunner
+
+    // The K2Go announcement dialog shows once per scanned code, not on every re-render
+    // (rotation, tab re-select), so it does not reappear while the same result is on screen.
+    private var k2goAnnouncedRaw: String? = null
 
     private val callback = object : BarcodeCallback {
         override fun barcodeResult(result: BarcodeResult) {
@@ -165,6 +170,13 @@ class ScanActivity : AppCompatActivity() {
             binding.actionButtons.addView(button)
         }
         binding.resultCard.visibility = View.VISIBLE
+
+        // A K2Go code only works inside Knowledge to Go: announce what it is (and offer to
+        // open the app when installed) in a dismissible dialog, not a transient snackbar.
+        if (content is ScannedContent.K2Go && content.raw != k2goAnnouncedRaw) {
+            k2goAnnouncedRaw = content.raw
+            K2GoHandoff.announce(this, content.feature)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -204,6 +216,7 @@ class ScanActivity : AppCompatActivity() {
         is ScannedContent.Geo -> R.string.type_geo
         is ScannedContent.Event -> R.string.type_event
         is ScannedContent.Contact -> R.string.type_contact
+        is ScannedContent.K2Go -> R.string.type_k2go
         is ScannedContent.Text -> R.string.type_text
     }
 
@@ -231,6 +244,7 @@ class ScanActivity : AppCompatActivity() {
         is ScannedContent.Geo -> R.drawable.ic_place
         is ScannedContent.Event -> R.drawable.ic_event
         is ScannedContent.Contact -> R.drawable.ic_person
+        is ScannedContent.K2Go -> R.drawable.ic_k2go
         is ScannedContent.Text -> R.drawable.ic_text
     }
 
@@ -267,6 +281,12 @@ class ScanActivity : AppCompatActivity() {
             content.phones.forEach { appendLine(it) }
             content.emails.forEach { appendLine(it) }
         }.trim().ifEmpty { content.raw }
+        is ScannedContent.K2Go -> getString(
+            when (content.feature) {
+                K2GoFeature.CLONE -> R.string.k2go_clone_summary
+                K2GoFeature.CONTENT_EXCHANGE -> R.string.k2go_content_summary
+            }
+        )
         is ScannedContent.Text -> content.raw
     }
 }

@@ -54,5 +54,13 @@ sealed interface ScannedContent {
         override val raw: String,
     ) : ScannedContent
 
+    /** A Knowledge to Go specific payload: Clone (full system copy) or Content Exchange
+     *  (selected content). Scan to Go only names it and can hand off to K2Go; it never
+     *  joins the transfer itself. */
+    data class K2Go(val feature: K2GoFeature, override val raw: String) : ScannedContent
+
     data class Text(override val raw: String) : ScannedContent
 }
+
+/** Which Knowledge to Go feature a scanned K2Go payload belongs to. */
+enum class K2GoFeature { CLONE, CONTENT_EXCHANGE }
