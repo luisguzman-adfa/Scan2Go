@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Усмерите камеру ка QR коду</string>
+    <string name="action_scan_again">Скенирај други</string>
+    <string name="action_open">Отвори</string>
+    <string name="action_copy">Копирај</string>
+    <string name="action_share">Подели</string>
+    <string name="action_web_search">Претражи веб</string>
+    <string name="action_wifi_connect">Повежи се</string>
+    <string name="action_wifi_copy_password">Копирај лозинку</string>
+    <string name="action_dial">Позови</string>
+    <string name="action_sms">Пошаљи поруку</string>
+    <string name="action_email">Пошаљи имејл</string>
+    <string name="action_map">Отвори у Мапама</string>
+    <string name="action_add_event">Додај у календар</string>
+    <string name="action_add_contact">Додај контакт</string>
+    <string name="type_url">Веза</string>
+    <string name="type_wifi">Wi-Fi мрежа</string>
+    <string name="type_phone">Број телефона</string>
+    <string name="type_sms">Текстуална порука</string>
+    <string name="type_email">Имејл</string>
+    <string name="type_geo">Локација</string>
+    <string name="type_event">Догађај у календару</string>
+    <string name="type_contact">Контакт</string>
+    <string name="type_text">Текст</string>
+    <string name="torch_on">Укључи лампу</string>
+    <string name="torch_off">Искључи лампу</string>
+    <string name="copied">Копирано у привремену меморију</string>
+    <string name="open_link_title">Отворити ову везу?</string>
+    <string name="cancel">Откажи</string>
+    <string name="wifi_credentials">Мрежа: %1$s\nЛозинка: %2$s</string>
+    <string name="wifi_no_password">(без лозинке)</string>
+    <string name="wifi_open_settings">Wi-Fi подешавања</string>
+    <string name="camera_permission_denied">За скенирање је потребна дозвола за камеру.</string>
+    <string name="no_app_to_handle">Ниједна апликација не може да отвори ово.</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Elekeza kamera kwenye msimbo wa QR</string>
+    <string name="action_scan_again">Changanua nyingine</string>
+    <string name="action_open">Fungua</string>
+    <string name="action_copy">Nakili</string>
+    <string name="action_share">Shiriki</string>
+    <string name="action_web_search">Tafuta kwenye wavuti</string>
+    <string name="action_wifi_connect">Unganisha</string>
+    <string name="action_wifi_copy_password">Nakili nenosiri</string>
+    <string name="action_dial">Piga simu</string>
+    <string name="action_sms">Tuma ujumbe</string>
+    <string name="action_email">Tuma barua pepe</string>
+    <string name="action_map">Fungua kwenye Ramani</string>
+    <string name="action_add_event">Ongeza kwenye kalenda</string>
+    <string name="action_add_contact">Ongeza anwani</string>
+    <string name="type_url">Kiungo</string>
+    <string name="type_wifi">Mtandao wa Wi-Fi</string>
+    <string name="type_phone">Nambari ya simu</string>
+    <string name="type_sms">Ujumbe wa maandishi</string>
+    <string name="type_email">Barua pepe</string>
+    <string name="type_geo">Mahali</string>
+    <string name="type_event">Tukio la kalenda</string>
+    <string name="type_contact">Anwani</string>
+    <string name="type_text">Maandishi</string>
+    <string name="torch_on">Washa tochi</string>
+    <string name="torch_off">Zima tochi</string>
+    <string name="copied">Imenakiliwa kwenye ubao wa kunakili</string>
+    <string name="open_link_title">Kufungua kiungo hiki?</string>
+    <string name="cancel">Ghairi</string>
+    <string name="wifi_credentials">Mtandao: %1$s\nNenosiri: %2$s</string>
+    <string name="wifi_no_password">(hakuna nenosiri)</string>
+    <string name="wifi_open_settings">Mipangilio ya Wi-Fi</string>
+    <string name="camera_permission_denied">Ruhusa ya kamera inahitajika ili kuchanganua.</string>
+    <string name="no_app_to_handle">Hakuna programu inayoweza kufungua hii.</string>
+</resources>

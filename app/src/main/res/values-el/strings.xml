@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Στρέψτε την κάμερα σε έναν κωδικό QR</string>
+    <string name="action_scan_again">Σάρωση άλλου</string>
+    <string name="action_open">Άνοιγμα</string>
+    <string name="action_copy">Αντιγραφή</string>
+    <string name="action_share">Κοινή χρήση</string>
+    <string name="action_web_search">Αναζήτηση στον ιστό</string>
+    <string name="action_wifi_connect">Σύνδεση</string>
+    <string name="action_wifi_copy_password">Αντιγραφή κωδικού</string>
+    <string name="action_dial">Κλήση</string>
+    <string name="action_sms">Αποστολή μηνύματος</string>
+    <string name="action_email">Αποστολή email</string>
+    <string name="action_map">Άνοιγμα στους Χάρτες</string>
+    <string name="action_add_event">Προσθήκη στο ημερολόγιο</string>
+    <string name="action_add_contact">Προσθήκη επαφής</string>
+    <string name="type_url">Σύνδεσμος</string>
+    <string name="type_wifi">Δίκτυο Wi-Fi</string>
+    <string name="type_phone">Αριθμός τηλεφώνου</string>
+    <string name="type_sms">Μήνυμα κειμένου</string>
+    <string name="type_email">Email</string>
+    <string name="type_geo">Τοποθεσία</string>
+    <string name="type_event">Συμβάν ημερολογίου</string>
+    <string name="type_contact">Επαφή</string>
+    <string name="type_text">Κείμενο</string>
+    <string name="torch_on">Ενεργοποίηση φακού</string>
+    <string name="torch_off">Απενεργοποίηση φακού</string>
+    <string name="copied">Αντιγράφηκε στο πρόχειρο</string>
+    <string name="open_link_title">Άνοιγμα αυτού του συνδέσμου;</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="wifi_credentials">Δίκτυο: %1$s\nΚωδικός: %2$s</string>
+    <string name="wifi_no_password">(χωρίς κωδικό)</string>
+    <string name="wifi_open_settings">Ρυθμίσεις Wi-Fi</string>
+    <string name="camera_permission_denied">Απαιτείται άδεια κάμερας για σάρωση.</string>
+    <string name="no_app_to_handle">Καμία εφαρμογή δεν μπορεί να το ανοίξει.</string>
+</resources>

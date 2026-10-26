@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Nukreipkite kamerą į QR kodą</string>
+    <string name="action_scan_again">Nuskaityti kitą</string>
+    <string name="action_open">Atidaryti</string>
+    <string name="action_copy">Kopijuoti</string>
+    <string name="action_share">Bendrinti</string>
+    <string name="action_web_search">Ieškoti žiniatinklyje</string>
+    <string name="action_wifi_connect">Prisijungti</string>
+    <string name="action_wifi_copy_password">Kopijuoti slaptažodį</string>
+    <string name="action_dial">Skambinti</string>
+    <string name="action_sms">Siųsti žinutę</string>
+    <string name="action_email">Siųsti el. laišką</string>
+    <string name="action_map">Atidaryti žemėlapiuose</string>
+    <string name="action_add_event">Pridėti prie kalendoriaus</string>
+    <string name="action_add_contact">Pridėti kontaktą</string>
+    <string name="type_url">Nuoroda</string>
+    <string name="type_wifi">Wi-Fi tinklas</string>
+    <string name="type_phone">Telefono numeris</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">El. paštas</string>
+    <string name="type_geo">Vieta</string>
+    <string name="type_event">Kalendoriaus įvykis</string>
+    <string name="type_contact">Kontaktas</string>
+    <string name="type_text">Tekstas</string>
+    <string name="torch_on">Įjungti žibintuvėlį</string>
+    <string name="torch_off">Išjungti žibintuvėlį</string>
+    <string name="copied">Nukopijuota į iškarpinę</string>
+    <string name="open_link_title">Atidaryti šią nuorodą?</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="wifi_credentials">Tinklas: %1$s\nSlaptažodis: %2$s</string>
+    <string name="wifi_no_password">(nėra slaptažodžio)</string>
+    <string name="wifi_open_settings">Wi-Fi nustatymai</string>
+    <string name="camera_permission_denied">Nuskaitymui reikia kameros leidimo.</string>
+    <string name="no_app_to_handle">Jokia programa negali to atidaryti.</string>
+</resources>

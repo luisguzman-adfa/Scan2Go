@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">カメラをQRコードに向けてください</string>
+    <string name="action_scan_again">別のコードをスキャン</string>
+    <string name="action_open">開く</string>
+    <string name="action_copy">コピー</string>
+    <string name="action_share">共有</string>
+    <string name="action_web_search">ウェブで検索</string>
+    <string name="action_wifi_connect">接続</string>
+    <string name="action_wifi_copy_password">パスワードをコピー</string>
+    <string name="action_dial">発信</string>
+    <string name="action_sms">メッセージを送信</string>
+    <string name="action_email">メールを送信</string>
+    <string name="action_map">マップで開く</string>
+    <string name="action_add_event">カレンダーに追加</string>
+    <string name="action_add_contact">連絡先に追加</string>
+    <string name="type_url">リンク</string>
+    <string name="type_wifi">Wi-Fiネットワーク</string>
+    <string name="type_phone">電話番号</string>
+    <string name="type_sms">テキストメッセージ</string>
+    <string name="type_email">メール</string>
+    <string name="type_geo">位置情報</string>
+    <string name="type_event">カレンダーの予定</string>
+    <string name="type_contact">連絡先</string>
+    <string name="type_text">テキスト</string>
+    <string name="torch_on">ライトをオンにする</string>
+    <string name="torch_off">ライトをオフにする</string>
+    <string name="copied">クリップボードにコピーしました</string>
+    <string name="open_link_title">このリンクを開きますか?</string>
+    <string name="cancel">キャンセル</string>
+    <string name="wifi_credentials">ネットワーク: %1$s\nパスワード: %2$s</string>
+    <string name="wifi_no_password">(パスワードなし)</string>
+    <string name="wifi_open_settings">Wi-Fi設定</string>
+    <string name="camera_permission_denied">スキャンするにはカメラの許可が必要です。</string>
+    <string name="no_app_to_handle">これを開けるアプリがありません。</string>
+</resources>

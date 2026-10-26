@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Pointez la caméra vers un code QR</string>
+    <string name="action_scan_again">En scanner un autre</string>
+    <string name="action_open">Ouvrir</string>
+    <string name="action_copy">Copier</string>
+    <string name="action_share">Partager</string>
+    <string name="action_web_search">Rechercher sur le Web</string>
+    <string name="action_wifi_connect">Se connecter</string>
+    <string name="action_wifi_copy_password">Copier le mot de passe</string>
+    <string name="action_dial">Appeler</string>
+    <string name="action_sms">Envoyer un message</string>
+    <string name="action_email">Envoyer un e-mail</string>
+    <string name="action_map">Ouvrir dans Maps</string>
+    <string name="action_add_event">Ajouter au calendrier</string>
+    <string name="action_add_contact">Ajouter un contact</string>
+    <string name="type_url">Lien</string>
+    <string name="type_wifi">Réseau Wi-Fi</string>
+    <string name="type_phone">Numéro de téléphone</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">E-mail</string>
+    <string name="type_geo">Position</string>
+    <string name="type_event">Événement de calendrier</string>
+    <string name="type_contact">Contact</string>
+    <string name="type_text">Texte</string>
+    <string name="torch_on">Allumer la lampe de poche</string>
+    <string name="torch_off">Éteindre la lampe de poche</string>
+    <string name="copied">Copié dans le presse-papiers</string>
+    <string name="open_link_title">Ouvrir ce lien ?</string>
+    <string name="cancel">Annuler</string>
+    <string name="wifi_credentials">Réseau : %1$s\nMot de passe : %2$s</string>
+    <string name="wifi_no_password">(aucun mot de passe)</string>
+    <string name="wifi_open_settings">Paramètres Wi-Fi</string>
+    <string name="camera_permission_denied">Autorisation de la caméra requise pour scanner.</string>
+    <string name="no_app_to_handle">Aucune application ne peut ouvrir ceci.</string>
+</resources>

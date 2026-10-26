@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Skieruj aparat na kod QR</string>
+    <string name="action_scan_again">Skanuj kolejny</string>
+    <string name="action_open">Otwórz</string>
+    <string name="action_copy">Kopiuj</string>
+    <string name="action_share">Udostępnij</string>
+    <string name="action_web_search">Szukaj w sieci</string>
+    <string name="action_wifi_connect">Połącz</string>
+    <string name="action_wifi_copy_password">Kopiuj hasło</string>
+    <string name="action_dial">Zadzwoń</string>
+    <string name="action_sms">Wyślij wiadomość</string>
+    <string name="action_email">Wyślij e-mail</string>
+    <string name="action_map">Otwórz w Mapach</string>
+    <string name="action_add_event">Dodaj do kalendarza</string>
+    <string name="action_add_contact">Dodaj kontakt</string>
+    <string name="type_url">Link</string>
+    <string name="type_wifi">Sieć Wi-Fi</string>
+    <string name="type_phone">Numer telefonu</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">E-mail</string>
+    <string name="type_geo">Lokalizacja</string>
+    <string name="type_event">Wydarzenie w kalendarzu</string>
+    <string name="type_contact">Kontakt</string>
+    <string name="type_text">Tekst</string>
+    <string name="torch_on">Włącz latarkę</string>
+    <string name="torch_off">Wyłącz latarkę</string>
+    <string name="copied">Skopiowano do schowka</string>
+    <string name="open_link_title">Otworzyć ten link?</string>
+    <string name="cancel">Anuluj</string>
+    <string name="wifi_credentials">Sieć: %1$s\nHasło: %2$s</string>
+    <string name="wifi_no_password">(brak hasła)</string>
+    <string name="wifi_open_settings">Ustawienia Wi-Fi</string>
+    <string name="camera_permission_denied">Do skanowania wymagane jest pozwolenie na aparat.</string>
+    <string name="no_app_to_handle">Żadna aplikacja nie może tego otworzyć.</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Rett kameraet mot en QR-kode</string>
+    <string name="action_scan_again">Skann en til</string>
+    <string name="action_open">Åpne</string>
+    <string name="action_copy">Kopier</string>
+    <string name="action_share">Del</string>
+    <string name="action_web_search">Søk på nettet</string>
+    <string name="action_wifi_connect">Koble til</string>
+    <string name="action_wifi_copy_password">Kopier passord</string>
+    <string name="action_dial">Ring</string>
+    <string name="action_sms">Send melding</string>
+    <string name="action_email">Send e-post</string>
+    <string name="action_map">Åpne i Kart</string>
+    <string name="action_add_event">Legg til i kalender</string>
+    <string name="action_add_contact">Legg til kontakt</string>
+    <string name="type_url">Lenke</string>
+    <string name="type_wifi">Wi-Fi-nettverk</string>
+    <string name="type_phone">Telefonnummer</string>
+    <string name="type_sms">Tekstmelding</string>
+    <string name="type_email">E-post</string>
+    <string name="type_geo">Posisjon</string>
+    <string name="type_event">Kalenderhendelse</string>
+    <string name="type_contact">Kontakt</string>
+    <string name="type_text">Tekst</string>
+    <string name="torch_on">Slå på lommelykten</string>
+    <string name="torch_off">Slå av lommelykten</string>
+    <string name="copied">Kopiert til utklippstavlen</string>
+    <string name="open_link_title">Åpne denne lenken?</string>
+    <string name="cancel">Avbryt</string>
+    <string name="wifi_credentials">Nettverk: %1$s\nPassord: %2$s</string>
+    <string name="wifi_no_password">(ingen passord)</string>
+    <string name="wifi_open_settings">Wi-Fi-innstillinger</string>
+    <string name="camera_permission_denied">Kameratillatelse kreves for å skanne.</string>
+    <string name="no_app_to_handle">Ingen app kan åpne dette.</string>
+</resources>

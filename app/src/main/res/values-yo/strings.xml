@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Darí kamẹra sí koodu QR</string>
+    <string name="action_scan_again">Ṣàyẹ̀wò òmíràn</string>
+    <string name="action_open">Ṣí</string>
+    <string name="action_copy">Daako</string>
+    <string name="action_share">Pín</string>
+    <string name="action_web_search">Wá lórí wẹ́ẹ̀bù</string>
+    <string name="action_wifi_connect">Sopọ̀</string>
+    <string name="action_wifi_copy_password">Daako ọ̀rọ̀ìgbaniwọlé</string>
+    <string name="action_dial">Pè</string>
+    <string name="action_sms">Fi ìránṣẹ́ ránṣẹ́</string>
+    <string name="action_email">Fi ìmẹ́lì ránṣẹ́</string>
+    <string name="action_map">Ṣí ní Máàpù</string>
+    <string name="action_add_event">Fi kún kàlẹ́ńdà</string>
+    <string name="action_add_contact">Fi olùbánisọ̀rọ̀ kún</string>
+    <string name="type_url">Ọ̀nà asopọ̀</string>
+    <string name="type_wifi">Nẹ́tíwọ́kì Wi-Fi</string>
+    <string name="type_phone">Nọ́mbà fóònù</string>
+    <string name="type_sms">Ìránṣẹ́ ọ̀rọ̀</string>
+    <string name="type_email">Ìmẹ́lì</string>
+    <string name="type_geo">Ipò</string>
+    <string name="type_event">Ìṣẹ̀lẹ̀ kàlẹ́ńdà</string>
+    <string name="type_contact">Olùbánisọ̀rọ̀</string>
+    <string name="type_text">Ọ̀rọ̀</string>
+    <string name="torch_on">Tan filaṣi</string>
+    <string name="torch_off">Pa filaṣi</string>
+    <string name="copied">A ti daako sí àpótí ìfidákọ</string>
+    <string name="open_link_title">Ṣí ọ̀nà asopọ̀ yìí?</string>
+    <string name="cancel">Fagilé</string>
+    <string name="wifi_credentials">Nẹ́tíwọ́kì: %1$s\nỌ̀rọ̀ìgbaniwọlé: %2$s</string>
+    <string name="wifi_no_password">(kò sí ọ̀rọ̀ìgbaniwọlé)</string>
+    <string name="wifi_open_settings">Ètò Wi-Fi</string>
+    <string name="camera_permission_denied">A nílò àṣẹ kamẹra láti ṣàyẹ̀wò.</string>
+    <string name="no_app_to_handle">Kò sí áàpù tó lè ṣí èyí.</string>
+</resources>

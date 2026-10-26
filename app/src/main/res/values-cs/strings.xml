@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Namiřte fotoaparát na QR kód</string>
+    <string name="action_scan_again">Skenovat další</string>
+    <string name="action_open">Otevřít</string>
+    <string name="action_copy">Kopírovat</string>
+    <string name="action_share">Sdílet</string>
+    <string name="action_web_search">Hledat na webu</string>
+    <string name="action_wifi_connect">Připojit</string>
+    <string name="action_wifi_copy_password">Kopírovat heslo</string>
+    <string name="action_dial">Zavolat</string>
+    <string name="action_sms">Odeslat zprávu</string>
+    <string name="action_email">Odeslat e-mail</string>
+    <string name="action_map">Otevřít v Mapách</string>
+    <string name="action_add_event">Přidat do kalendáře</string>
+    <string name="action_add_contact">Přidat kontakt</string>
+    <string name="type_url">Odkaz</string>
+    <string name="type_wifi">Síť Wi-Fi</string>
+    <string name="type_phone">Telefonní číslo</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">E-mail</string>
+    <string name="type_geo">Poloha</string>
+    <string name="type_event">Událost v kalendáři</string>
+    <string name="type_contact">Kontakt</string>
+    <string name="type_text">Text</string>
+    <string name="torch_on">Zapnout svítilnu</string>
+    <string name="torch_off">Vypnout svítilnu</string>
+    <string name="copied">Zkopírováno do schránky</string>
+    <string name="open_link_title">Otevřít tento odkaz?</string>
+    <string name="cancel">Zrušit</string>
+    <string name="wifi_credentials">Síť: %1$s\nHeslo: %2$s</string>
+    <string name="wifi_no_password">(bez hesla)</string>
+    <string name="wifi_open_settings">Nastavení Wi-Fi</string>
+    <string name="camera_permission_denied">Ke skenování je potřeba oprávnění k fotoaparátu.</string>
+    <string name="no_app_to_handle">Tento obsah nemůže otevřít žádná aplikace.</string>
+</resources>

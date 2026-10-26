@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Namierte fotoaparát na QR kód</string>
+    <string name="action_scan_again">Skenovať ďalší</string>
+    <string name="action_open">Otvoriť</string>
+    <string name="action_copy">Kopírovať</string>
+    <string name="action_share">Zdieľať</string>
+    <string name="action_web_search">Hľadať na webe</string>
+    <string name="action_wifi_connect">Pripojiť</string>
+    <string name="action_wifi_copy_password">Kopírovať heslo</string>
+    <string name="action_dial">Zavolať</string>
+    <string name="action_sms">Odoslať správu</string>
+    <string name="action_email">Odoslať e-mail</string>
+    <string name="action_map">Otvoriť v Mapách</string>
+    <string name="action_add_event">Pridať do kalendára</string>
+    <string name="action_add_contact">Pridať kontakt</string>
+    <string name="type_url">Odkaz</string>
+    <string name="type_wifi">Sieť Wi-Fi</string>
+    <string name="type_phone">Telefónne číslo</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">E-mail</string>
+    <string name="type_geo">Poloha</string>
+    <string name="type_event">Udalosť v kalendári</string>
+    <string name="type_contact">Kontakt</string>
+    <string name="type_text">Text</string>
+    <string name="torch_on">Zapnúť baterku</string>
+    <string name="torch_off">Vypnúť baterku</string>
+    <string name="copied">Skopírované do schránky</string>
+    <string name="open_link_title">Otvoriť tento odkaz?</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="wifi_credentials">Sieť: %1$s\nHeslo: %2$s</string>
+    <string name="wifi_no_password">(bez hesla)</string>
+    <string name="wifi_open_settings">Nastavenia Wi-Fi</string>
+    <string name="camera_permission_denied">Na skenovanie je potrebné povolenie fotoaparátu.</string>
+    <string name="no_app_to_handle">Tento obsah nedokáže otvoriť žiadna aplikácia.</string>
+</resources>

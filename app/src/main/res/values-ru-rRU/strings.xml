@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Наведите камеру на QR-код</string>
+    <string name="action_scan_again">Сканировать ещё</string>
+    <string name="action_open">Открыть</string>
+    <string name="action_copy">Копировать</string>
+    <string name="action_share">Поделиться</string>
+    <string name="action_web_search">Искать в интернете</string>
+    <string name="action_wifi_connect">Подключиться</string>
+    <string name="action_wifi_copy_password">Копировать пароль</string>
+    <string name="action_dial">Позвонить</string>
+    <string name="action_sms">Отправить сообщение</string>
+    <string name="action_email">Отправить e-mail</string>
+    <string name="action_map">Открыть в Картах</string>
+    <string name="action_add_event">Добавить в календарь</string>
+    <string name="action_add_contact">Добавить контакт</string>
+    <string name="type_url">Ссылка</string>
+    <string name="type_wifi">Сеть Wi-Fi</string>
+    <string name="type_phone">Номер телефона</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">Эл. почта</string>
+    <string name="type_geo">Местоположение</string>
+    <string name="type_event">Событие календаря</string>
+    <string name="type_contact">Контакт</string>
+    <string name="type_text">Текст</string>
+    <string name="torch_on">Включить фонарик</string>
+    <string name="torch_off">Выключить фонарик</string>
+    <string name="copied">Скопировано в буфер обмена</string>
+    <string name="open_link_title">Открыть эту ссылку?</string>
+    <string name="cancel">Отмена</string>
+    <string name="wifi_credentials">Сеть: %1$s\nПароль: %2$s</string>
+    <string name="wifi_no_password">(без пароля)</string>
+    <string name="wifi_open_settings">Настройки Wi-Fi</string>
+    <string name="camera_permission_denied">Для сканирования требуется разрешение на камеру.</string>
+    <string name="no_app_to_handle">Нет приложения для открытия этого.</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">وجّه الكاميرا نحو رمز QR</string>
+    <string name="action_scan_again">مسح رمز آخر</string>
+    <string name="action_open">فتح</string>
+    <string name="action_copy">نسخ</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_web_search">البحث على الويب</string>
+    <string name="action_wifi_connect">اتصال</string>
+    <string name="action_wifi_copy_password">نسخ كلمة المرور</string>
+    <string name="action_dial">اتصال هاتفي</string>
+    <string name="action_sms">إرسال رسالة</string>
+    <string name="action_email">إرسال بريد إلكتروني</string>
+    <string name="action_map">فتح في الخرائط</string>
+    <string name="action_add_event">إضافة إلى التقويم</string>
+    <string name="action_add_contact">إضافة جهة اتصال</string>
+    <string name="type_url">رابط</string>
+    <string name="type_wifi">شبكة Wi-Fi</string>
+    <string name="type_phone">رقم الهاتف</string>
+    <string name="type_sms">رسالة نصية</string>
+    <string name="type_email">بريد إلكتروني</string>
+    <string name="type_geo">الموقع</string>
+    <string name="type_event">حدث في التقويم</string>
+    <string name="type_contact">جهة اتصال</string>
+    <string name="type_text">نص</string>
+    <string name="torch_on">تشغيل المصباح</string>
+    <string name="torch_off">إيقاف المصباح</string>
+    <string name="copied">تم النسخ إلى الحافظة</string>
+    <string name="open_link_title">فتح هذا الرابط؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="wifi_credentials">الشبكة: %1$s\nكلمة المرور: %2$s</string>
+    <string name="wifi_no_password">(بدون كلمة مرور)</string>
+    <string name="wifi_open_settings">إعدادات Wi-Fi</string>
+    <string name="camera_permission_denied">يلزم إذن الكاميرا للمسح.</string>
+    <string name="no_app_to_handle">لا يوجد تطبيق يمكنه فتح هذا.</string>
+</resources>

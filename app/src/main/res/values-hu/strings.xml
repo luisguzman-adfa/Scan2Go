@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Irányítsd a kamerát egy QR-kódra</string>
+    <string name="action_scan_again">Újabb beolvasása</string>
+    <string name="action_open">Megnyitás</string>
+    <string name="action_copy">Másolás</string>
+    <string name="action_share">Megosztás</string>
+    <string name="action_web_search">Keresés a weben</string>
+    <string name="action_wifi_connect">Csatlakozás</string>
+    <string name="action_wifi_copy_password">Jelszó másolása</string>
+    <string name="action_dial">Hívás</string>
+    <string name="action_sms">Üzenet küldése</string>
+    <string name="action_email">E-mail küldése</string>
+    <string name="action_map">Megnyitás a Térképen</string>
+    <string name="action_add_event">Hozzáadás a naptárhoz</string>
+    <string name="action_add_contact">Névjegy hozzáadása</string>
+    <string name="type_url">Hivatkozás</string>
+    <string name="type_wifi">Wi-Fi-hálózat</string>
+    <string name="type_phone">Telefonszám</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">E-mail</string>
+    <string name="type_geo">Hely</string>
+    <string name="type_event">Naptáresemény</string>
+    <string name="type_contact">Névjegy</string>
+    <string name="type_text">Szöveg</string>
+    <string name="torch_on">Zseblámpa bekapcsolása</string>
+    <string name="torch_off">Zseblámpa kikapcsolása</string>
+    <string name="copied">Vágólapra másolva</string>
+    <string name="open_link_title">Megnyitja ezt a hivatkozást?</string>
+    <string name="cancel">Mégse</string>
+    <string name="wifi_credentials">Hálózat: %1$s\nJelszó: %2$s</string>
+    <string name="wifi_no_password">(nincs jelszó)</string>
+    <string name="wifi_open_settings">Wi-Fi-beállítások</string>
+    <string name="camera_permission_denied">A beolvasáshoz kameraengedély szükséges.</string>
+    <string name="no_app_to_handle">Egyetlen alkalmazás sem tudja ezt megnyitni.</string>
+</resources>

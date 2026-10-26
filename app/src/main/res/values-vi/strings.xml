@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Hướng camera vào mã QR</string>
+    <string name="action_scan_again">Quét mã khác</string>
+    <string name="action_open">Mở</string>
+    <string name="action_copy">Sao chép</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="action_web_search">Tìm trên web</string>
+    <string name="action_wifi_connect">Kết nối</string>
+    <string name="action_wifi_copy_password">Sao chép mật khẩu</string>
+    <string name="action_dial">Gọi</string>
+    <string name="action_sms">Gửi tin nhắn</string>
+    <string name="action_email">Gửi email</string>
+    <string name="action_map">Mở trong Bản đồ</string>
+    <string name="action_add_event">Thêm vào lịch</string>
+    <string name="action_add_contact">Thêm liên hệ</string>
+    <string name="type_url">Liên kết</string>
+    <string name="type_wifi">Mạng Wi-Fi</string>
+    <string name="type_phone">Số điện thoại</string>
+    <string name="type_sms">Tin nhắn văn bản</string>
+    <string name="type_email">Email</string>
+    <string name="type_geo">Vị trí</string>
+    <string name="type_event">Sự kiện lịch</string>
+    <string name="type_contact">Liên hệ</string>
+    <string name="type_text">Văn bản</string>
+    <string name="torch_on">Bật đèn pin</string>
+    <string name="torch_off">Tắt đèn pin</string>
+    <string name="copied">Đã sao chép vào bảng tạm</string>
+    <string name="open_link_title">Mở liên kết này?</string>
+    <string name="cancel">Hủy</string>
+    <string name="wifi_credentials">Mạng: %1$s\nMật khẩu: %2$s</string>
+    <string name="wifi_no_password">(không có mật khẩu)</string>
+    <string name="wifi_open_settings">Cài đặt Wi-Fi</string>
+    <string name="camera_permission_denied">Cần quyền camera để quét.</string>
+    <string name="no_app_to_handle">Không có ứng dụng nào có thể mở nội dung này.</string>
+</resources>

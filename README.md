@@ -71,10 +71,10 @@ Run the unit tests:
 
 ## Localization
 
-The UI strings live in `res/values/strings.xml` (English, source of truth) and
-`res/values-es/strings.xml` (Spanish). The target is the full K2Go set of 33
-languages. Adding the remaining 31 locales is a pre-merge step: machine-translate,
-then mark for human review. The locale set is:
+The UI strings live in `res/values/strings.xml` (English, source of truth) plus the
+full K2Go set of 33 locales. Every locale file is machine-translated and carries a
+"pending human review" header: replace each with a reviewed translation before any
+public release. The locale set is:
 
 ```
 ar az bg bn cs de el es fa fr gu hi hu in it ja ko lt nl no

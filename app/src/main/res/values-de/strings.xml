@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Richte die Kamera auf einen QR-Code</string>
+    <string name="action_scan_again">Weiteren scannen</string>
+    <string name="action_open">Öffnen</string>
+    <string name="action_copy">Kopieren</string>
+    <string name="action_share">Teilen</string>
+    <string name="action_web_search">Im Web suchen</string>
+    <string name="action_wifi_connect">Verbinden</string>
+    <string name="action_wifi_copy_password">Passwort kopieren</string>
+    <string name="action_dial">Anrufen</string>
+    <string name="action_sms">Nachricht senden</string>
+    <string name="action_email">E-Mail senden</string>
+    <string name="action_map">In Karten öffnen</string>
+    <string name="action_add_event">Zum Kalender hinzufügen</string>
+    <string name="action_add_contact">Kontakt hinzufügen</string>
+    <string name="type_url">Link</string>
+    <string name="type_wifi">Wi-Fi-Netzwerk</string>
+    <string name="type_phone">Telefonnummer</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">E-Mail</string>
+    <string name="type_geo">Standort</string>
+    <string name="type_event">Kalendereintrag</string>
+    <string name="type_contact">Kontakt</string>
+    <string name="type_text">Text</string>
+    <string name="torch_on">Taschenlampe einschalten</string>
+    <string name="torch_off">Taschenlampe ausschalten</string>
+    <string name="copied">In die Zwischenablage kopiert</string>
+    <string name="open_link_title">Diesen Link öffnen?</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="wifi_credentials">Netzwerk: %1$s\nPasswort: %2$s</string>
+    <string name="wifi_no_password">(kein Passwort)</string>
+    <string name="wifi_open_settings">Wi-Fi-Einstellungen</string>
+    <string name="camera_permission_denied">Zum Scannen ist die Kameraberechtigung erforderlich.</string>
+    <string name="no_app_to_handle">Keine App kann dies öffnen.</string>
+</resources>

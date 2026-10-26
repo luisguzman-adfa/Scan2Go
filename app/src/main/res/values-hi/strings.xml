@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">कैमरे को QR कोड की ओर रखें</string>
+    <string name="action_scan_again">दूसरा स्कैन करें</string>
+    <string name="action_open">खोलें</string>
+    <string name="action_copy">कॉपी करें</string>
+    <string name="action_share">शेयर करें</string>
+    <string name="action_web_search">वेब पर खोजें</string>
+    <string name="action_wifi_connect">कनेक्ट करें</string>
+    <string name="action_wifi_copy_password">पासवर्ड कॉपी करें</string>
+    <string name="action_dial">कॉल करें</string>
+    <string name="action_sms">संदेश भेजें</string>
+    <string name="action_email">ईमेल भेजें</string>
+    <string name="action_map">मैप में खोलें</string>
+    <string name="action_add_event">कैलेंडर में जोड़ें</string>
+    <string name="action_add_contact">संपर्क जोड़ें</string>
+    <string name="type_url">लिंक</string>
+    <string name="type_wifi">Wi-Fi नेटवर्क</string>
+    <string name="type_phone">फ़ोन नंबर</string>
+    <string name="type_sms">टेक्स्ट संदेश</string>
+    <string name="type_email">ईमेल</string>
+    <string name="type_geo">स्थान</string>
+    <string name="type_event">कैलेंडर इवेंट</string>
+    <string name="type_contact">संपर्क</string>
+    <string name="type_text">टेक्स्ट</string>
+    <string name="torch_on">फ़्लैशलाइट चालू करें</string>
+    <string name="torch_off">फ़्लैशलाइट बंद करें</string>
+    <string name="copied">क्लिपबोर्ड पर कॉपी किया गया</string>
+    <string name="open_link_title">यह लिंक खोलें?</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="wifi_credentials">नेटवर्क: %1$s\nपासवर्ड: %2$s</string>
+    <string name="wifi_no_password">(कोई पासवर्ड नहीं)</string>
+    <string name="wifi_open_settings">Wi-Fi सेटिंग</string>
+    <string name="camera_permission_denied">स्कैन करने के लिए कैमरा अनुमति आवश्यक है.</string>
+    <string name="no_app_to_handle">इसे खोलने वाला कोई ऐप नहीं है.</string>
+</resources>

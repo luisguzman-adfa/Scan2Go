@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Aponte a câmera para um código QR</string>
+    <string name="action_scan_again">Escanear outro</string>
+    <string name="action_open">Abrir</string>
+    <string name="action_copy">Copiar</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_web_search">Pesquisar na web</string>
+    <string name="action_wifi_connect">Conectar</string>
+    <string name="action_wifi_copy_password">Copiar senha</string>
+    <string name="action_dial">Ligar</string>
+    <string name="action_sms">Enviar mensagem</string>
+    <string name="action_email">Enviar e-mail</string>
+    <string name="action_map">Abrir no mapa</string>
+    <string name="action_add_event">Adicionar ao calendário</string>
+    <string name="action_add_contact">Adicionar contato</string>
+    <string name="type_url">Link</string>
+    <string name="type_wifi">Rede Wi-Fi</string>
+    <string name="type_phone">Número de telefone</string>
+    <string name="type_sms">Mensagem de texto</string>
+    <string name="type_email">E-mail</string>
+    <string name="type_geo">Localização</string>
+    <string name="type_event">Evento de calendário</string>
+    <string name="type_contact">Contato</string>
+    <string name="type_text">Texto</string>
+    <string name="torch_on">Ligar a lanterna</string>
+    <string name="torch_off">Desligar a lanterna</string>
+    <string name="copied">Copiado para a área de transferência</string>
+    <string name="open_link_title">Abrir este link?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="wifi_credentials">Rede: %1$s\nSenha: %2$s</string>
+    <string name="wifi_no_password">(sem senha)</string>
+    <string name="wifi_open_settings">Configurações de Wi-Fi</string>
+    <string name="camera_permission_denied">É necessária permissão de câmera para escanear.</string>
+    <string name="no_app_to_handle">Nenhum app pode abrir isto.</string>
+</resources>

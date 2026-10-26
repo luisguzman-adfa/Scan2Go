@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">دوربین را به سمت کد QR بگیرید</string>
+    <string name="action_scan_again">اسکن مورد دیگر</string>
+    <string name="action_open">باز کردن</string>
+    <string name="action_copy">کپی</string>
+    <string name="action_share">اشتراک‌گذاری</string>
+    <string name="action_web_search">جستجو در وب</string>
+    <string name="action_wifi_connect">اتصال</string>
+    <string name="action_wifi_copy_password">کپی گذرواژه</string>
+    <string name="action_dial">تماس</string>
+    <string name="action_sms">ارسال پیام</string>
+    <string name="action_email">ارسال ایمیل</string>
+    <string name="action_map">باز کردن در نقشه‌ها</string>
+    <string name="action_add_event">افزودن به تقویم</string>
+    <string name="action_add_contact">افزودن مخاطب</string>
+    <string name="type_url">پیوند</string>
+    <string name="type_wifi">شبکه Wi-Fi</string>
+    <string name="type_phone">شماره تلفن</string>
+    <string name="type_sms">پیام متنی</string>
+    <string name="type_email">ایمیل</string>
+    <string name="type_geo">موقعیت مکانی</string>
+    <string name="type_event">رویداد تقویم</string>
+    <string name="type_contact">مخاطب</string>
+    <string name="type_text">متن</string>
+    <string name="torch_on">روشن کردن چراغ‌قوه</string>
+    <string name="torch_off">خاموش کردن چراغ‌قوه</string>
+    <string name="copied">در بریده‌دان کپی شد</string>
+    <string name="open_link_title">این پیوند باز شود؟</string>
+    <string name="cancel">لغو</string>
+    <string name="wifi_credentials">شبکه: %1$s\nگذرواژه: %2$s</string>
+    <string name="wifi_no_password">(بدون گذرواژه)</string>
+    <string name="wifi_open_settings">تنظیمات Wi-Fi</string>
+    <string name="camera_permission_denied">برای اسکن، اجازه دوربین لازم است.</string>
+    <string name="no_app_to_handle">هیچ برنامه‌ای نمی‌تواند این را باز کند.</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Kameranı QR koduna yönəlt</string>
+    <string name="action_scan_again">Başqasını tara</string>
+    <string name="action_open">Aç</string>
+    <string name="action_copy">Kopyala</string>
+    <string name="action_share">Paylaş</string>
+    <string name="action_web_search">İnternetdə axtar</string>
+    <string name="action_wifi_connect">Qoşul</string>
+    <string name="action_wifi_copy_password">Parolu kopyala</string>
+    <string name="action_dial">Zəng et</string>
+    <string name="action_sms">Mesaj göndər</string>
+    <string name="action_email">E-poçt göndər</string>
+    <string name="action_map">Xəritədə aç</string>
+    <string name="action_add_event">Təqvimə əlavə et</string>
+    <string name="action_add_contact">Kontakt əlavə et</string>
+    <string name="type_url">Keçid</string>
+    <string name="type_wifi">Wi-Fi şəbəkəsi</string>
+    <string name="type_phone">Telefon nömrəsi</string>
+    <string name="type_sms">Mesaj</string>
+    <string name="type_email">E-poçt</string>
+    <string name="type_geo">Məkan</string>
+    <string name="type_event">Təqvim hadisəsi</string>
+    <string name="type_contact">Kontakt</string>
+    <string name="type_text">Mətn</string>
+    <string name="torch_on">Fənəri yandır</string>
+    <string name="torch_off">Fənəri söndür</string>
+    <string name="copied">Mübadilə buferinə kopyalandı</string>
+    <string name="open_link_title">Bu keçid açılsın?</string>
+    <string name="cancel">Ləğv et</string>
+    <string name="wifi_credentials">Şəbəkə: %1$s\nParol: %2$s</string>
+    <string name="wifi_no_password">(parol yoxdur)</string>
+    <string name="wifi_open_settings">Wi-Fi ayarları</string>
+    <string name="camera_permission_denied">Taramaq üçün kamera icazəsi lazımdır.</string>
+    <string name="no_app_to_handle">Bunu heç bir tətbiq aça bilməz.</string>
+</resources>

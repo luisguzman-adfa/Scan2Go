@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Насочете камерата към QR код</string>
+    <string name="action_scan_again">Сканиране на друг</string>
+    <string name="action_open">Отваряне</string>
+    <string name="action_copy">Копиране</string>
+    <string name="action_share">Споделяне</string>
+    <string name="action_web_search">Търсене в мрежата</string>
+    <string name="action_wifi_connect">Свързване</string>
+    <string name="action_wifi_copy_password">Копиране на паролата</string>
+    <string name="action_dial">Обаждане</string>
+    <string name="action_sms">Изпращане на съобщение</string>
+    <string name="action_email">Изпращане на имейл</string>
+    <string name="action_map">Отваряне в Карти</string>
+    <string name="action_add_event">Добавяне към календара</string>
+    <string name="action_add_contact">Добавяне на контакт</string>
+    <string name="type_url">Връзка</string>
+    <string name="type_wifi">Wi-Fi мрежа</string>
+    <string name="type_phone">Телефонен номер</string>
+    <string name="type_sms">Текстово съобщение</string>
+    <string name="type_email">Имейл</string>
+    <string name="type_geo">Местоположение</string>
+    <string name="type_event">Събитие в календара</string>
+    <string name="type_contact">Контакт</string>
+    <string name="type_text">Текст</string>
+    <string name="torch_on">Включване на фенерчето</string>
+    <string name="torch_off">Изключване на фенерчето</string>
+    <string name="copied">Копирано в клипборда</string>
+    <string name="open_link_title">Да се отвори ли тази връзка?</string>
+    <string name="cancel">Отказ</string>
+    <string name="wifi_credentials">Мрежа: %1$s\nПарола: %2$s</string>
+    <string name="wifi_no_password">(без парола)</string>
+    <string name="wifi_open_settings">Настройки на Wi-Fi</string>
+    <string name="camera_permission_denied">За сканиране е необходимо разрешение за камерата.</string>
+    <string name="no_app_to_handle">Няма приложение, което да отвори това.</string>
+</resources>

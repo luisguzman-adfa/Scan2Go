@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Richt de camera op een QR-code</string>
+    <string name="action_scan_again">Nog een scannen</string>
+    <string name="action_open">Openen</string>
+    <string name="action_copy">Kopiëren</string>
+    <string name="action_share">Delen</string>
+    <string name="action_web_search">Op het web zoeken</string>
+    <string name="action_wifi_connect">Verbinden</string>
+    <string name="action_wifi_copy_password">Wachtwoord kopiëren</string>
+    <string name="action_dial">Bellen</string>
+    <string name="action_sms">Bericht sturen</string>
+    <string name="action_email">E-mail sturen</string>
+    <string name="action_map">Openen in Maps</string>
+    <string name="action_add_event">Aan agenda toevoegen</string>
+    <string name="action_add_contact">Contact toevoegen</string>
+    <string name="type_url">Link</string>
+    <string name="type_wifi">Wi-Fi-netwerk</string>
+    <string name="type_phone">Telefoonnummer</string>
+    <string name="type_sms">Sms</string>
+    <string name="type_email">E-mail</string>
+    <string name="type_geo">Locatie</string>
+    <string name="type_event">Agenda-item</string>
+    <string name="type_contact">Contact</string>
+    <string name="type_text">Tekst</string>
+    <string name="torch_on">Zaklamp inschakelen</string>
+    <string name="torch_off">Zaklamp uitschakelen</string>
+    <string name="copied">Gekopieerd naar klembord</string>
+    <string name="open_link_title">Deze link openen?</string>
+    <string name="cancel">Annuleren</string>
+    <string name="wifi_credentials">Netwerk: %1$s\nWachtwoord: %2$s</string>
+    <string name="wifi_no_password">(geen wachtwoord)</string>
+    <string name="wifi_open_settings">Wi-Fi-instellingen</string>
+    <string name="camera_permission_denied">Cameratoestemming is vereist om te scannen.</string>
+    <string name="no_app_to_handle">Geen app kan dit openen.</string>
+</resources>

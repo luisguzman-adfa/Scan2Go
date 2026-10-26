@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Îndreaptă camera spre un cod QR</string>
+    <string name="action_scan_again">Scanează altul</string>
+    <string name="action_open">Deschide</string>
+    <string name="action_copy">Copiază</string>
+    <string name="action_share">Distribuie</string>
+    <string name="action_web_search">Caută pe web</string>
+    <string name="action_wifi_connect">Conectează</string>
+    <string name="action_wifi_copy_password">Copiază parola</string>
+    <string name="action_dial">Sună</string>
+    <string name="action_sms">Trimite mesaj</string>
+    <string name="action_email">Trimite e-mail</string>
+    <string name="action_map">Deschide în Hărți</string>
+    <string name="action_add_event">Adaugă în calendar</string>
+    <string name="action_add_contact">Adaugă contact</string>
+    <string name="type_url">Link</string>
+    <string name="type_wifi">Rețea Wi-Fi</string>
+    <string name="type_phone">Număr de telefon</string>
+    <string name="type_sms">Mesaj text</string>
+    <string name="type_email">E-mail</string>
+    <string name="type_geo">Locație</string>
+    <string name="type_event">Eveniment din calendar</string>
+    <string name="type_contact">Contact</string>
+    <string name="type_text">Text</string>
+    <string name="torch_on">Aprinde lanterna</string>
+    <string name="torch_off">Stinge lanterna</string>
+    <string name="copied">Copiat în clipboard</string>
+    <string name="open_link_title">Deschizi acest link?</string>
+    <string name="cancel">Anulează</string>
+    <string name="wifi_credentials">Rețea: %1$s\nParolă: %2$s</string>
+    <string name="wifi_no_password">(fără parolă)</string>
+    <string name="wifi_open_settings">Setări Wi-Fi</string>
+    <string name="camera_permission_denied">Pentru scanare este necesară permisiunea camerei.</string>
+    <string name="no_app_to_handle">Nicio aplicație nu poate deschide acest lucru.</string>
+</resources>

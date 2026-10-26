@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Наведіть камеру на QR-код</string>
+    <string name="action_scan_again">Сканувати ще</string>
+    <string name="action_open">Відкрити</string>
+    <string name="action_copy">Копіювати</string>
+    <string name="action_share">Поділитися</string>
+    <string name="action_web_search">Шукати в інтернеті</string>
+    <string name="action_wifi_connect">Підключитися</string>
+    <string name="action_wifi_copy_password">Копіювати пароль</string>
+    <string name="action_dial">Зателефонувати</string>
+    <string name="action_sms">Надіслати повідомлення</string>
+    <string name="action_email">Надіслати e-mail</string>
+    <string name="action_map">Відкрити в Картах</string>
+    <string name="action_add_event">Додати в календар</string>
+    <string name="action_add_contact">Додати контакт</string>
+    <string name="type_url">Посилання</string>
+    <string name="type_wifi">Мережа Wi-Fi</string>
+    <string name="type_phone">Номер телефону</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">Ел. пошта</string>
+    <string name="type_geo">Місцезнаходження</string>
+    <string name="type_event">Подія календаря</string>
+    <string name="type_contact">Контакт</string>
+    <string name="type_text">Текст</string>
+    <string name="torch_on">Увімкнути ліхтарик</string>
+    <string name="torch_off">Вимкнути ліхтарик</string>
+    <string name="copied">Скопійовано в буфер обміну</string>
+    <string name="open_link_title">Відкрити це посилання?</string>
+    <string name="cancel">Скасувати</string>
+    <string name="wifi_credentials">Мережа: %1$s\nПароль: %2$s</string>
+    <string name="wifi_no_password">(без пароля)</string>
+    <string name="wifi_open_settings">Налаштування Wi-Fi</string>
+    <string name="camera_permission_denied">Для сканування потрібен дозвіл на камеру.</string>
+    <string name="no_app_to_handle">Немає застосунку, щоб це відкрити.</string>
+</resources>

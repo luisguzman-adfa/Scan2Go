@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Inquadra un codice QR con la fotocamera</string>
+    <string name="action_scan_again">Scansiona un altro</string>
+    <string name="action_open">Apri</string>
+    <string name="action_copy">Copia</string>
+    <string name="action_share">Condividi</string>
+    <string name="action_web_search">Cerca sul Web</string>
+    <string name="action_wifi_connect">Connetti</string>
+    <string name="action_wifi_copy_password">Copia password</string>
+    <string name="action_dial">Chiama</string>
+    <string name="action_sms">Invia messaggio</string>
+    <string name="action_email">Invia email</string>
+    <string name="action_map">Apri in Mappe</string>
+    <string name="action_add_event">Aggiungi al calendario</string>
+    <string name="action_add_contact">Aggiungi contatto</string>
+    <string name="type_url">Link</string>
+    <string name="type_wifi">Rete Wi-Fi</string>
+    <string name="type_phone">Numero di telefono</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">Email</string>
+    <string name="type_geo">Posizione</string>
+    <string name="type_event">Evento del calendario</string>
+    <string name="type_contact">Contatto</string>
+    <string name="type_text">Testo</string>
+    <string name="torch_on">Accendi la torcia</string>
+    <string name="torch_off">Spegni la torcia</string>
+    <string name="copied">Copiato negli appunti</string>
+    <string name="open_link_title">Aprire questo link?</string>
+    <string name="cancel">Annulla</string>
+    <string name="wifi_credentials">Rete: %1$s\nPassword: %2$s</string>
+    <string name="wifi_no_password">(nessuna password)</string>
+    <string name="wifi_open_settings">Impostazioni Wi-Fi</string>
+    <string name="camera_permission_denied">Per la scansione serve il permesso della fotocamera.</string>
+    <string name="no_app_to_handle">Nessuna app può aprire questo.</string>
+</resources>

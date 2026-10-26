@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine-translated; pending human review. -->
+<resources>
+    <string name="scan_prompt">Arahkan kamera ke kode QR</string>
+    <string name="action_scan_again">Pindai lainnya</string>
+    <string name="action_open">Buka</string>
+    <string name="action_copy">Salin</string>
+    <string name="action_share">Bagikan</string>
+    <string name="action_web_search">Telusuri di web</string>
+    <string name="action_wifi_connect">Sambungkan</string>
+    <string name="action_wifi_copy_password">Salin kata sandi</string>
+    <string name="action_dial">Panggil</string>
+    <string name="action_sms">Kirim pesan</string>
+    <string name="action_email">Kirim email</string>
+    <string name="action_map">Buka di Maps</string>
+    <string name="action_add_event">Tambahkan ke kalender</string>
+    <string name="action_add_contact">Tambahkan kontak</string>
+    <string name="type_url">Tautan</string>
+    <string name="type_wifi">Jaringan Wi-Fi</string>
+    <string name="type_phone">Nomor telepon</string>
+    <string name="type_sms">Pesan teks</string>
+    <string name="type_email">Email</string>
+    <string name="type_geo">Lokasi</string>
+    <string name="type_event">Acara kalender</string>
+    <string name="type_contact">Kontak</string>
+    <string name="type_text">Teks</string>
+    <string name="torch_on">Nyalakan senter</string>
+    <string name="torch_off">Matikan senter</string>
+    <string name="copied">Disalin ke papan klip</string>
+    <string name="open_link_title">Buka tautan ini?</string>
+    <string name="cancel">Batal</string>
+    <string name="wifi_credentials">Jaringan: %1$s\nKata sandi: %2$s</string>
+    <string name="wifi_no_password">(tanpa kata sandi)</string>
+    <string name="wifi_open_settings">Setelan Wi-Fi</string>
+    <string name="camera_permission_denied">Izin kamera diperlukan untuk memindai.</string>
+    <string name="no_app_to_handle">Tidak ada aplikasi yang dapat membuka ini.</string>
+</resources>
