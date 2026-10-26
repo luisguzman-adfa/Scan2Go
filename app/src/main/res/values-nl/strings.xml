@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Cameratoestemming is vereist om te scannen.</string>
     <string name="no_app_to_handle">Geen app kan dit openen.</string>
     <string name="splash_powered_by">mogelijk gemaakt door App Dev for All</string>
+    <string name="wifi_already_saved">Dit netwerk is al opgeslagen op je telefoon.</string>
 </resources>

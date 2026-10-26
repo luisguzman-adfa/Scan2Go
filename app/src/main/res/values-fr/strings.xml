@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Autorisation de la caméra requise pour scanner.</string>
     <string name="no_app_to_handle">Aucune application ne peut ouvrir ceci.</string>
     <string name="splash_powered_by">propulsé par App Dev for All</string>
+    <string name="wifi_already_saved">Ce réseau est déjà enregistré sur votre téléphone.</string>
 </resources>

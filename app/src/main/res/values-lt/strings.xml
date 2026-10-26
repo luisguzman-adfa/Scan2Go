@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Nuskaitymui reikia kameros leidimo.</string>
     <string name="no_app_to_handle">Jokia programa negali to atidaryti.</string>
     <string name="splash_powered_by">sukūrė App Dev for All</string>
+    <string name="wifi_already_saved">Šis tinklas jau išsaugotas jūsų telefone.</string>
 </resources>

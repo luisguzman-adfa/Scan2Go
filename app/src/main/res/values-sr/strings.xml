@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">За скенирање је потребна дозвола за камеру.</string>
     <string name="no_app_to_handle">Ниједна апликација не може да отвори ово.</string>
     <string name="splash_powered_by">уз подршку App Dev for All</string>
+    <string name="wifi_already_saved">Ова мрежа је већ сачувана на вашем телефону.</string>
 </resources>

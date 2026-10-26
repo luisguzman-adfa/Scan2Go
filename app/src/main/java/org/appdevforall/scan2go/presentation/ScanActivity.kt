@@ -2,6 +2,7 @@ package org.appdevforall.scan2go.presentation
 
 import android.Manifest
 import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -52,12 +53,35 @@ class ScanActivity : AppCompatActivity() {
         if (granted) startScanningIfReady() else showPermissionDenied()
     }
 
+    // The Wi-Fi add-networks dialog returns ALREADY_EXISTS (and shows no dialog) when
+    // the network is already saved; surface that instead of looking like nothing happened.
+    private val wifiAddLauncher = registerForActivityResult(
+        ActivityResultContracts.StartActivityForResult()
+    ) { result ->
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            val message = WifiConnector.resultMessage(result)
+            if (message != 0) snack(getString(message))
+        }
+    }
+
+    private fun connectWifi(wifi: ScannedContent.Wifi) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R && WifiConnector.canSuggest(wifi)) {
+            wifiAddLauncher.launch(WifiConnector.buildAddNetworksIntent(wifi))
+        } else {
+            WifiConnector.guide(this, wifi)
+        }
+    }
+
+    private fun snack(message: String) {
+        Snackbar.make(binding.root, message, SnackbarDuration.millisForText(message)).show()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityScanBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
-        actionRunner = ActionRunner(this, binding.root)
+        actionRunner = ActionRunner(this, binding.root, ::connectWifi)
 
         binding.barcodeView.setStatusText("")
         binding.btnScanAgain.setOnClickListener { viewModel.scanAgain() }

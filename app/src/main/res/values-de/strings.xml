@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Zum Scannen ist die Kameraberechtigung erforderlich.</string>
     <string name="no_app_to_handle">Keine App kann dies öffnen.</string>
     <string name="splash_powered_by">unterstützt von App Dev for All</string>
+    <string name="wifi_already_saved">Dieses Netzwerk ist bereits auf deinem Telefon gespeichert.</string>
 </resources>

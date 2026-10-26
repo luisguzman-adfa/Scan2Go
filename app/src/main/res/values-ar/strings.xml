@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">يلزم إذن الكاميرا للمسح.</string>
     <string name="no_app_to_handle">لا يوجد تطبيق يمكنه فتح هذا.</string>
     <string name="splash_powered_by">بدعم من App Dev for All</string>
+    <string name="wifi_already_saved">هذه الشبكة محفوظة بالفعل على هاتفك.</string>
 </resources>

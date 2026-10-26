@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Taramak için kamera izni gerekli.</string>
     <string name="no_app_to_handle">Bunu açabilecek uygulama yok.</string>
     <string name="splash_powered_by">App Dev for All tarafından</string>
+    <string name="wifi_already_saved">Bu ağ telefonunuza zaten kaydedilmiş.</string>
 </resources>

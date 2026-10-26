@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">扫描需要相机权限。</string>
     <string name="no_app_to_handle">没有可以打开此内容的应用。</string>
     <string name="splash_powered_by">由 App Dev for All 提供技术支持</string>
+    <string name="wifi_already_saved">此网络已保存在您的手机上。</string>
 </resources>

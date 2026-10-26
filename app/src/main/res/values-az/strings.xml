@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Taramaq üçün kamera icazəsi lazımdır.</string>
     <string name="no_app_to_handle">Bunu heç bir tətbiq aça bilməz.</string>
     <string name="splash_powered_by">App Dev for All tərəfindən</string>
+    <string name="wifi_already_saved">Bu şəbəkə artıq telefonunuzda saxlanılıb.</string>
 </resources>

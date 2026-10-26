@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Pentru scanare este necesară permisiunea camerei.</string>
     <string name="no_app_to_handle">Nicio aplicație nu poate deschide acest lucru.</string>
     <string name="splash_powered_by">oferit de App Dev for All</string>
+    <string name="wifi_already_saved">Această rețea este deja salvată pe telefonul tău.</string>
 </resources>

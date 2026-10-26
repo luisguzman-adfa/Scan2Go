@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">A nílò àṣẹ kamẹra láti ṣàyẹ̀wò.</string>
     <string name="no_app_to_handle">Kò sí áàpù tó lè ṣí èyí.</string>
     <string name="splash_powered_by">ṣe atilẹyin nipasẹ App Dev for All</string>
+    <string name="wifi_already_saved">Nẹ́tíwọ́kì yìí ti wà ní fóònù rẹ tẹ́lẹ̀.</string>
 </resources>

@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">A beolvasáshoz kameraengedély szükséges.</string>
     <string name="no_app_to_handle">Egyetlen alkalmazás sem tudja ezt megnyitni.</string>
     <string name="splash_powered_by">az App Dev for All gondozásában</string>
+    <string name="wifi_already_saved">Ez a hálózat már el van mentve a telefonján.</string>
 </resources>

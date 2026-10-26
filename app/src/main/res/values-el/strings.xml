@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Απαιτείται άδεια κάμερας για σάρωση.</string>
     <string name="no_app_to_handle">Καμία εφαρμογή δεν μπορεί να το ανοίξει.</string>
     <string name="splash_powered_by">με την υποστήριξη της App Dev for All</string>
+    <string name="wifi_already_saved">Αυτό το δίκτυο είναι ήδη αποθηκευμένο στο τηλέφωνό σας.</string>
 </resources>

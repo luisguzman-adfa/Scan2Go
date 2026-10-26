@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Do skanowania wymagane jest pozwolenie na aparat.</string>
     <string name="no_app_to_handle">Żadna aplikacja nie może tego otworzyć.</string>
     <string name="splash_powered_by">obsługiwane przez App Dev for All</string>
+    <string name="wifi_already_saved">Ta sieć jest już zapisana w telefonie.</string>
 </resources>

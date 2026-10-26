@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Cần quyền camera để quét.</string>
     <string name="no_app_to_handle">Không có ứng dụng nào có thể mở nội dung này.</string>
     <string name="splash_powered_by">cung cấp bởi App Dev for All</string>
+    <string name="wifi_already_saved">Mạng này đã được lưu trên điện thoại của bạn.</string>
 </resources>

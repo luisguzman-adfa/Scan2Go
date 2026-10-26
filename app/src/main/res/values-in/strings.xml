@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Izin kamera diperlukan untuk memindai.</string>
     <string name="no_app_to_handle">Tidak ada aplikasi yang dapat membuka ini.</string>
     <string name="splash_powered_by">didukung oleh App Dev for All</string>
+    <string name="wifi_already_saved">Jaringan ini sudah tersimpan di ponsel Anda.</string>
 </resources>

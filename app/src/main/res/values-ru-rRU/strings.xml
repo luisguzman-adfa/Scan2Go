@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Для сканирования требуется разрешение на камеру.</string>
     <string name="no_app_to_handle">Нет приложения для открытия этого.</string>
     <string name="splash_powered_by">при поддержке App Dev for All</string>
+    <string name="wifi_already_saved">Эта сеть уже сохранена на вашем телефоне.</string>
 </resources>

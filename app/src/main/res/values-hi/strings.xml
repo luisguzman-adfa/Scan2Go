@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">स्कैन करने के लिए कैमरा अनुमति आवश्यक है.</string>
     <string name="no_app_to_handle">इसे खोलने वाला कोई ऐप नहीं है.</string>
     <string name="splash_powered_by">App Dev for All द्वारा संचालित</string>
+    <string name="wifi_already_saved">यह नेटवर्क पहले से ही आपके फ़ोन में सेव है.</string>
 </resources>

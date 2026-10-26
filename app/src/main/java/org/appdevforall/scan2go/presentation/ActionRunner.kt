@@ -20,6 +20,7 @@ import org.appdevforall.scan2go.util.SnackbarDuration
 class ActionRunner(
     private val activity: AppCompatActivity,
     private val rootView: View,
+    private val onWifiConnect: (ScannedContent.Wifi) -> Unit,
 ) {
 
     fun run(action: ScanAction, content: ScannedContent) {
@@ -38,7 +39,7 @@ class ActionRunner(
                 Intent(Intent.ACTION_WEB_SEARCH).putExtra(SearchManager.QUERY, content.raw)
             )
 
-            ScanAction.WIFI_CONNECT -> WifiConnector.connectOrGuide(activity, content as ScannedContent.Wifi)
+            ScanAction.WIFI_CONNECT -> onWifiConnect(content as ScannedContent.Wifi)
 
             ScanAction.WIFI_COPY_PASSWORD ->
                 copy((content as ScannedContent.Wifi).password.orEmpty(), label = "wifi-password")

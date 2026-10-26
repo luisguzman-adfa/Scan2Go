@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">برای اسکن، اجازه دوربین لازم است.</string>
     <string name="no_app_to_handle">هیچ برنامه‌ای نمی‌تواند این را باز کند.</string>
     <string name="splash_powered_by">قدرت‌گرفته از App Dev for All</string>
+    <string name="wifi_already_saved">این شبکه از قبل روی تلفن شما ذخیره شده است.</string>
 </resources>

@@ -35,4 +35,5 @@
     <string name="camera_permission_denied">Ke skenování je potřeba oprávnění k fotoaparátu.</string>
     <string name="no_app_to_handle">Tento obsah nemůže otevřít žádná aplikace.</string>
     <string name="splash_powered_by">od App Dev for All</string>
+    <string name="wifi_already_saved">Tato síť je už v telefonu uložená.</string>
 </resources>
