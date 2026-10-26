@@ -1,5 +1,20 @@
-// Top-level build file. Plugins are declared here (apply false) and applied per module.
-plugins {
-    alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.kotlin.android) apply false
+// Buildscript classpath for AGP and Kotlin (both resolved from the Gradle cache).
+// Versions match the K2Go toolchain so the local cache is reused: AGP 8.9.1 on
+// Gradle 8.11.1.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.9.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
 }
