@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Wi-Fi ayarları</string>
     <string name="camera_permission_denied">Taramaq üçün kamera icazəsi lazımdır.</string>
     <string name="no_app_to_handle">Bunu heç bir tətbiq aça bilməz.</string>
+    <string name="splash_powered_by">App Dev for All tərəfindən</string>
 </resources>

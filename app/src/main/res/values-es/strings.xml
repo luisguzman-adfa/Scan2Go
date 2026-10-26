@@ -37,4 +37,5 @@
     <string name="wifi_open_settings">Ajustes de Wi-Fi</string>
     <string name="camera_permission_denied">Se necesita permiso de cámara para escanear.</string>
     <string name="no_app_to_handle">Ninguna app puede abrir esto.</string>
+    <string name="splash_powered_by">desarrollado por App Dev for All</string>
 </resources>

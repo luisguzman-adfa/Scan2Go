@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Cài đặt Wi-Fi</string>
     <string name="camera_permission_denied">Cần quyền camera để quét.</string>
     <string name="no_app_to_handle">Không có ứng dụng nào có thể mở nội dung này.</string>
+    <string name="splash_powered_by">cung cấp bởi App Dev for All</string>
 </resources>

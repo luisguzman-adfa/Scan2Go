@@ -33,6 +33,11 @@ class SplashActivity : AppCompatActivity() {
         word.translationY = dy
         word.animate().alpha(1f).translationY(0f).setStartDelay(650L).setDuration(600L).start()
 
+        // Credit fades in last.
+        val credit = findViewById<TextView>(R.id.credit)
+        credit.alpha = 0f
+        credit.animate().alpha(1f).setStartDelay(1200L).setDuration(480L).start()
+
         // Exit: fade the whole screen to the base color, then route to the scanner.
         val fade = findViewById<View>(R.id.fade)
         fade.alpha = 0f
@@ -46,7 +51,7 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private companion object {
-        const val EXIT_AT_MS = 2200L
+        const val EXIT_AT_MS = 2300L
         const val EXIT_FADE_MS = 400L
     }
 }

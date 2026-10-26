@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Wi-Fi 설정</string>
     <string name="camera_permission_denied">스캔하려면 카메라 권한이 필요합니다.</string>
     <string name="no_app_to_handle">이것을 열 수 있는 앱이 없습니다.</string>
+    <string name="splash_powered_by">App Dev for All 제공</string>
 </resources>

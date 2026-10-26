@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Impostazioni Wi-Fi</string>
     <string name="camera_permission_denied">Per la scansione serve il permesso della fotocamera.</string>
     <string name="no_app_to_handle">Nessuna app può aprire questo.</string>
+    <string name="splash_powered_by">con tecnologia App Dev for All</string>
 </resources>

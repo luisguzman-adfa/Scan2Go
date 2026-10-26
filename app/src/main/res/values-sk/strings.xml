@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Nastavenia Wi-Fi</string>
     <string name="camera_permission_denied">Na skenovanie je potrebné povolenie fotoaparátu.</string>
     <string name="no_app_to_handle">Tento obsah nedokáže otvoriť žiadna aplikácia.</string>
+    <string name="splash_powered_by">od App Dev for All</string>
 </resources>

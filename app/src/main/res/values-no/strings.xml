@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Wi-Fi-innstillinger</string>
     <string name="camera_permission_denied">Kameratillatelse kreves for å skanne.</string>
     <string name="no_app_to_handle">Ingen app kan åpne dette.</string>
+    <string name="splash_powered_by">levert av App Dev for All</string>
 </resources>

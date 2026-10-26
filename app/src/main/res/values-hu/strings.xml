@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Wi-Fi-beállítások</string>
     <string name="camera_permission_denied">A beolvasáshoz kameraengedély szükséges.</string>
     <string name="no_app_to_handle">Egyetlen alkalmazás sem tudja ezt megnyitni.</string>
+    <string name="splash_powered_by">az App Dev for All gondozásában</string>
 </resources>

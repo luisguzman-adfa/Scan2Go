@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Mipangilio ya Wi-Fi</string>
     <string name="camera_permission_denied">Ruhusa ya kamera inahitajika ili kuchanganua.</string>
     <string name="no_app_to_handle">Hakuna programu inayoweza kufungua hii.</string>
+    <string name="splash_powered_by">inaendeshwa na App Dev for All</string>
 </resources>

@@ -4,4 +4,5 @@
     <color name="scan_scrim">#99000000</color>
     <color name="splash_bg">#FF0B1020</color>
     <color name="splash_text">#FFFFFFFF</color>
+    <color name="splash_credit">#99FFFFFF</color>
 </resources>

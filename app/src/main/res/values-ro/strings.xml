@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Setări Wi-Fi</string>
     <string name="camera_permission_denied">Pentru scanare este necesară permisiunea camerei.</string>
     <string name="no_app_to_handle">Nicio aplicație nu poate deschide acest lucru.</string>
+    <string name="splash_powered_by">oferit de App Dev for All</string>
 </resources>

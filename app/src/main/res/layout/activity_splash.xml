@@ -29,6 +29,17 @@
             android:textColor="@color/splash_text" />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="48dp"
+        android:letterSpacing="0.02"
+        android:text="@string/splash_powered_by"
+        android:textColor="@color/splash_credit"
+        android:textSize="13sp" />
+
     <!-- Full-screen overlay used for the exit cross-fade. -->
     <View
         android:id="@+id/fade"

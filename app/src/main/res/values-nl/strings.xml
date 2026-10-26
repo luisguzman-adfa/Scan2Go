@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Wi-Fi-instellingen</string>
     <string name="camera_permission_denied">Cameratoestemming is vereist om te scannen.</string>
     <string name="no_app_to_handle">Geen app kan dit openen.</string>
+    <string name="splash_powered_by">mogelijk gemaakt door App Dev for All</string>
 </resources>

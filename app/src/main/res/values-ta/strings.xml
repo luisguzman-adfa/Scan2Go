@@ -34,4 +34,5 @@
     <string name="wifi_open_settings">Wi-Fi அமைப்புகள்</string>
     <string name="camera_permission_denied">ஸ்கேன் செய்ய கேமரா அனுமதி தேவை.</string>
     <string name="no_app_to_handle">இதைத் திறக்கக்கூடிய ஆப்ஸ் இல்லை.</string>
+    <string name="splash_powered_by">App Dev for All வழங்குகிறது</string>
 </resources>
