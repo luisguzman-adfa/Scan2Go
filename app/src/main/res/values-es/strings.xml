@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan_prompt">Apunta la cámara a un código QR</string>
+    <string name="action_scan_again">Escanear otro</string>
+
+    <string name="action_open">Abrir</string>
+    <string name="action_copy">Copiar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_web_search">Buscar en la web</string>
+    <string name="action_wifi_connect">Conectar</string>
+    <string name="action_wifi_copy_password">Copiar contraseña</string>
+    <string name="action_dial">Llamar</string>
+    <string name="action_sms">Enviar mensaje</string>
+    <string name="action_email">Enviar correo</string>
+    <string name="action_map">Abrir en el mapa</string>
+    <string name="action_add_event">Agregar al calendario</string>
+    <string name="action_add_contact">Agregar contacto</string>
+
+    <string name="type_url">Enlace</string>
+    <string name="type_wifi">Red Wi-Fi</string>
+    <string name="type_phone">Número de teléfono</string>
+    <string name="type_sms">Mensaje de texto</string>
+    <string name="type_email">Correo electrónico</string>
+    <string name="type_geo">Ubicación</string>
+    <string name="type_event">Evento de calendario</string>
+    <string name="type_contact">Contacto</string>
+    <string name="type_text">Texto</string>
+
+    <string name="torch_on">Encender la linterna</string>
+    <string name="torch_off">Apagar la linterna</string>
+
+    <string name="copied">Copiado al portapapeles</string>
+    <string name="open_link_title">¿Abrir este enlace?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="wifi_credentials">Red: %1$s\nContraseña: %2$s</string>
+    <string name="wifi_no_password">(sin contraseña)</string>
+    <string name="wifi_open_settings">Ajustes de Wi-Fi</string>
+    <string name="camera_permission_denied">Se necesita permiso de cámara para escanear.</string>
+    <string name="no_app_to_handle">Ninguna app puede abrir esto.</string>
+</resources>

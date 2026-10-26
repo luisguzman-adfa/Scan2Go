@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rounded brand background. -->
+    <path
+        android:fillColor="#00696D"
+        android:pathData="M20,0 h68 a20,20 0 0 1 20,20 v68 a20,20 0 0 1 -20,20 h-68 a20,20 0 0 1 -20,-20 v-68 a20,20 0 0 1 20,-20 z" />
+
+    <!-- QR-style finder marks (white), centered in the safe zone. -->
+    <group
+        android:translateX="24"
+        android:translateY="24">
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="6"
+            android:strokeLineJoin="round"
+            android:pathData="M3,3 h20 v20 h-20 z" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="6"
+            android:strokeLineJoin="round"
+            android:pathData="M37,3 h20 v20 h-20 z" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="6"
+            android:strokeLineJoin="round"
+            android:pathData="M3,37 h20 v20 h-20 z" />
+        <path android:fillColor="#FFFFFF" android:pathData="M37,37 h8 v8 h-8 z" />
+        <path android:fillColor="#FFFFFF" android:pathData="M49,37 h8 v8 h-8 z" />
+        <path android:fillColor="#FFFFFF" android:pathData="M37,49 h8 v8 h-8 z" />
+        <path android:fillColor="#FFFFFF" android:pathData="M49,49 h8 v8 h-8 z" />
+    </group>
+</vector>

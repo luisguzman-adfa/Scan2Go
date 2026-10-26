@@ -1,0 +1,51 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+}
+
+android {
+    namespace 'org.appdevforall.scan2go'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "org.appdevforall.scan2go"
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName "0.1.0"
+        // No NDK / no native code: the APK is architecture-agnostic by construction.
+        // One universal APK covers 32-bit and 64-bit; no ABI splits to maintain.
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation libs.androidx.activity.ktx
+    implementation libs.androidx.lifecycle.viewmodel.ktx
+    implementation libs.androidx.lifecycle.livedata.ktx
+    implementation libs.zxing.android.embedded
+    implementation libs.zxing.core
+
+    testImplementation libs.junit
+}

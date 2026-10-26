@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand seed (light). Dynamic color overrides this on Android 12+. -->
+    <color name="brand_primary">#00696D</color>
+    <!-- Translucent scrim for chrome drawn over the camera preview. -->
+    <color name="scan_scrim">#99000000</color>
+</resources>
