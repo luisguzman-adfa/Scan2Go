@@ -91,5 +91,8 @@ pl pt ro ru-rRU sk sr sw ta tr uk vi yo zh-rCN
 - **Launcher icon:** a single vector icon (`drawable/ic_launcher`) is used. For a
   release, generate density PNG fallbacks and an adaptive icon with the Android Studio
   Image Asset tool.
-- **No repo home and no Jira ticket yet.** This is a local scaffold. It links to no
-  remote. A K2GO ticket, if wanted, is created only on explicit approval.
+- **Repo home:** https://github.com/luisguzman-adfa/Scan2Go. Related ticket: K2GO-508.
+
+## License
+
+GNU General Public License v3.0 or later. See `LICENSE`.
