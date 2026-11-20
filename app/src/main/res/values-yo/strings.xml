@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Kò sí áàpù tó lè ṣí èyí.</string>
     <string name="splash_powered_by">ṣe atilẹyin nipasẹ App Dev for All</string>
     <string name="wifi_already_saved">Nẹ́tíwọ́kì yìí ti wà ní fóònù rẹ tẹ́lẹ̀.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Gbigbe Clone (ẹ̀dà kíkún ti ẹ̀rọ)</string>
+    <string name="k2go_content_summary">Content Exchange (àkóónú tí a yàn)</string>
+    <string name="k2go_clone_installed">QR yìí ń pín ẹ̀dà kíkún ti ẹ̀rọ Knowledge to Go (Clone). Ṣí Knowledge to Go, lọ sí Clone, kí o sì gbà á.</string>
+    <string name="k2go_content_installed">QR yìí ń pín àkóónú Knowledge to Go tí a yàn. Ṣí Knowledge to Go, lọ sí Content Manager, kí o sì gbà á.</string>
+    <string name="k2go_clone_missing">QR yìí jẹ́ ẹ̀dà kíkún ti ẹ̀rọ Knowledge to Go (Clone). Knowledge to Go kò tíì sí lórí ẹ̀rọ: gbà á lọ́wọ́ ẹnìkan nítòsí tí ó ní i.</string>
+    <string name="k2go_content_missing">QR yìí ń pín àkóónú Knowledge to Go. Knowledge to Go kò tíì sí lórí ẹ̀rọ: gbà á lọ́wọ́ ẹnìkan nítòsí tí ó ní i.</string>
+    <string name="k2go_got_it">Ó yé mi</string>
 </resources>

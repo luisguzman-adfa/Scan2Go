@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Nessuna app può aprire questo.</string>
     <string name="splash_powered_by">con tecnologia App Dev for All</string>
     <string name="wifi_already_saved">Questa rete è già salvata sul tuo telefono.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Trasferimento Clone (copia completa del sistema)</string>
+    <string name="k2go_content_summary">Content Exchange (contenuti selezionati)</string>
+    <string name="k2go_clone_installed">Questo QR condivide una copia completa del sistema Knowledge to Go (Clone). Apri Knowledge to Go, vai su Clone e ricevila.</string>
+    <string name="k2go_content_installed">Questo QR condivide contenuti selezionati di Knowledge to Go. Apri Knowledge to Go, vai su Content Manager e ricevili.</string>
+    <string name="k2go_clone_missing">Questo QR è una copia completa del sistema Knowledge to Go (Clone). Knowledge to Go non è installato: procuratelo da qualcuno vicino che lo ha.</string>
+    <string name="k2go_content_missing">Questo QR condivide contenuti di Knowledge to Go. Knowledge to Go non è installato: procuratelo da qualcuno vicino che lo ha.</string>
+    <string name="k2go_got_it">Ho capito</string>
 </resources>

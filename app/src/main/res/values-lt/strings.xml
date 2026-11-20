@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Jokia programa negali to atidaryti.</string>
     <string name="splash_powered_by">sukūrė App Dev for All</string>
     <string name="wifi_already_saved">Šis tinklas jau išsaugotas jūsų telefone.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Clone perdavimas (visa sistemos kopija)</string>
+    <string name="k2go_content_summary">Content Exchange (pasirinktas turinys)</string>
+    <string name="k2go_clone_installed">Šis QR kodas bendrina visą Knowledge to Go sistemos kopiją (Clone). Atidarykite Knowledge to Go, eikite į Clone ir ją gaukite.</string>
+    <string name="k2go_content_installed">Šis QR kodas bendrina pasirinktą Knowledge to Go turinį. Atidarykite Knowledge to Go, eikite į Content Manager ir jį gaukite.</string>
+    <string name="k2go_clone_missing">Šis QR kodas yra visa Knowledge to Go sistemos kopija (Clone). Knowledge to Go neįdiegta: gaukite ją iš ko nors netoliese, kas ją turi.</string>
+    <string name="k2go_content_missing">Šis QR kodas bendrina Knowledge to Go turinį. Knowledge to Go neįdiegta: gaukite ją iš ko nors netoliese, kas ją turi.</string>
+    <string name="k2go_got_it">Supratau</string>
 </resources>

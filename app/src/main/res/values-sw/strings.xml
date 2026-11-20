@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Hakuna programu inayoweza kufungua hii.</string>
     <string name="splash_powered_by">inaendeshwa na App Dev for All</string>
     <string name="wifi_already_saved">Mtandao huu tayari umehifadhiwa kwenye simu yako.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Uhamisho wa Clone (nakala kamili ya mfumo)</string>
+    <string name="k2go_content_summary">Content Exchange (maudhui yaliyochaguliwa)</string>
+    <string name="k2go_clone_installed">QR hii inashiriki nakala kamili ya mfumo wa Knowledge to Go (Clone). Fungua Knowledge to Go, nenda kwa Clone, na uipokee.</string>
+    <string name="k2go_content_installed">QR hii inashiriki maudhui ya Knowledge to Go yaliyochaguliwa. Fungua Knowledge to Go, nenda kwa Content Manager, na uyapokee.</string>
+    <string name="k2go_clone_missing">QR hii ni nakala kamili ya mfumo wa Knowledge to Go (Clone). Knowledge to Go haijasakinishwa: ipate kutoka kwa mtu aliye karibu aliye nayo.</string>
+    <string name="k2go_content_missing">QR hii inashiriki maudhui ya Knowledge to Go. Knowledge to Go haijasakinishwa: ipate kutoka kwa mtu aliye karibu aliye nayo.</string>
+    <string name="k2go_got_it">Nimeelewa</string>
 </resources>

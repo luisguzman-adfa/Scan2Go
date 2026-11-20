@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">没有可以打开此内容的应用。</string>
     <string name="splash_powered_by">由 App Dev for All 提供技术支持</string>
     <string name="wifi_already_saved">此网络已保存在您的手机上。</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Clone 传输（完整系统副本）</string>
+    <string name="k2go_content_summary">Content Exchange（所选内容）</string>
+    <string name="k2go_clone_installed">此二维码分享完整的 Knowledge to Go 系统副本（Clone）。打开 Knowledge to Go，进入 Clone 并接收。</string>
+    <string name="k2go_content_installed">此二维码分享所选的 Knowledge to Go 内容。打开 Knowledge to Go，进入 Content Manager 并接收。</string>
+    <string name="k2go_clone_missing">此二维码是完整的 Knowledge to Go 系统副本（Clone）。尚未安装 Knowledge to Go：向附近拥有它的人获取。</string>
+    <string name="k2go_content_missing">此二维码分享 Knowledge to Go 内容。尚未安装 Knowledge to Go：向附近拥有它的人获取。</string>
+    <string name="k2go_got_it">知道了</string>
 </resources>

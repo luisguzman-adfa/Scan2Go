@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">이것을 열 수 있는 앱이 없습니다.</string>
     <string name="splash_powered_by">App Dev for All 제공</string>
     <string name="wifi_already_saved">이 네트워크는 이미 휴대전화에 저장되어 있습니다.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Clone 전송(전체 시스템 복사본)</string>
+    <string name="k2go_content_summary">Content Exchange(선택한 콘텐츠)</string>
+    <string name="k2go_clone_installed">이 QR은 전체 Knowledge to Go 시스템 복사본을 공유합니다(Clone). Knowledge to Go를 열고 Clone으로 이동하여 받으세요.</string>
+    <string name="k2go_content_installed">이 QR은 선택한 Knowledge to Go 콘텐츠를 공유합니다. Knowledge to Go를 열고 Content Manager로 이동하여 받으세요.</string>
+    <string name="k2go_clone_missing">이 QR은 전체 Knowledge to Go 시스템 복사본입니다(Clone). Knowledge to Go가 설치되어 있지 않습니다: 근처에 가지고 있는 사람에게서 받으세요.</string>
+    <string name="k2go_content_missing">이 QR은 Knowledge to Go 콘텐츠를 공유합니다. Knowledge to Go가 설치되어 있지 않습니다: 근처에 가지고 있는 사람에게서 받으세요.</string>
+    <string name="k2go_got_it">확인</string>
 </resources>

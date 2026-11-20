@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">இதைத் திறக்கக்கூடிய ஆப்ஸ் இல்லை.</string>
     <string name="splash_powered_by">App Dev for All வழங்குகிறது</string>
     <string name="wifi_already_saved">இந்த நெட்வொர்க் ஏற்கனவே உங்கள் ஃபோனில் சேமிக்கப்பட்டுள்ளது.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Clone பரிமாற்றம் (முழு கணினி நகல்)</string>
+    <string name="k2go_content_summary">Content Exchange (தேர்ந்தெடுக்கப்பட்ட உள்ளடக்கம்)</string>
+    <string name="k2go_clone_installed">இந்த QR முழு Knowledge to Go கணினி நகலைப் பகிர்கிறது (Clone). Knowledge to Go-ஐத் திறந்து, Clone-க்குச் சென்று அதைப் பெறுங்கள்.</string>
+    <string name="k2go_content_installed">இந்த QR தேர்ந்தெடுக்கப்பட்ட Knowledge to Go உள்ளடக்கத்தைப் பகிர்கிறது. Knowledge to Go-ஐத் திறந்து, Content Manager-க்குச் சென்று அதைப் பெறுங்கள்.</string>
+    <string name="k2go_clone_missing">இந்த QR ஒரு முழு Knowledge to Go கணினி நகல் (Clone). Knowledge to Go நிறுவப்படவில்லை: அது உள்ள அருகிலுள்ள ஒருவரிடமிருந்து பெறுங்கள்.</string>
+    <string name="k2go_content_missing">இந்த QR Knowledge to Go உள்ளடக்கத்தைப் பகிர்கிறது. Knowledge to Go நிறுவப்படவில்லை: அது உள்ள அருகிலுள்ள ஒருவரிடமிருந்து பெறுங்கள்.</string>
+    <string name="k2go_got_it">புரிந்தது</string>
 </resources>

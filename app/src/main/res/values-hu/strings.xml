@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Egyetlen alkalmazás sem tudja ezt megnyitni.</string>
     <string name="splash_powered_by">az App Dev for All gondozásában</string>
     <string name="wifi_already_saved">Ez a hálózat már el van mentve a telefonján.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Clone átvitel (teljes rendszermásolat)</string>
+    <string name="k2go_content_summary">Content Exchange (kiválasztott tartalom)</string>
+    <string name="k2go_clone_installed">Ez a QR-kód egy teljes Knowledge to Go rendszermásolatot oszt meg (Clone). Nyisd meg a Knowledge to Go-t, lépj a Clone-ra, és fogadd.</string>
+    <string name="k2go_content_installed">Ez a QR-kód kiválasztott Knowledge to Go tartalmat oszt meg. Nyisd meg a Knowledge to Go-t, lépj a Content Manager-re, és fogadd.</string>
+    <string name="k2go_clone_missing">Ez a QR-kód egy teljes Knowledge to Go rendszermásolat (Clone). A Knowledge to Go nincs telepítve: szerezd be valakitől a közeledben, akinek megvan.</string>
+    <string name="k2go_content_missing">Ez a QR-kód Knowledge to Go tartalmat oszt meg. A Knowledge to Go nincs telepítve: szerezd be valakitől a közeledben, akinek megvan.</string>
+    <string name="k2go_got_it">Értem</string>
 </resources>

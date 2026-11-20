@@ -46,4 +46,14 @@
     <string name="no_app_to_handle">No app can handle this.</string>
     <string name="splash_powered_by">powered by App Dev for All</string>
     <string name="wifi_already_saved">This network is already saved on your phone.</string>
+
+    <!-- Knowledge to Go (K2Go) hand-off: naming the two K2Go-only QR payloads. -->
+    <string name="type_k2go" translatable="false">Knowledge to Go</string>
+    <string name="k2go_clone_summary">Clone transfer (full system copy)</string>
+    <string name="k2go_content_summary">Content Exchange (selected content)</string>
+    <string name="k2go_clone_installed">This QR shares a full Knowledge to Go system copy (Clone). Open Knowledge to Go, go to Clone, and receive it.</string>
+    <string name="k2go_content_installed">This QR shares selected Knowledge to Go content. Open Knowledge to Go, go to Content Manager, and receive it.</string>
+    <string name="k2go_clone_missing">This QR is a full Knowledge to Go system copy (Clone). Knowledge to Go is not installed: get it from someone nearby who has it.</string>
+    <string name="k2go_content_missing">This QR shares Knowledge to Go content. Knowledge to Go is not installed: get it from someone nearby who has it.</string>
+    <string name="k2go_got_it">Got it</string>
 </resources>

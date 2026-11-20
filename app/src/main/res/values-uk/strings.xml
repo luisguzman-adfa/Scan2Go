@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Немає застосунку, щоб це відкрити.</string>
     <string name="splash_powered_by">за підтримки App Dev for All</string>
     <string name="wifi_already_saved">Ця мережа вже збережена на вашому телефоні.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Передавання Clone (повна копія системи)</string>
+    <string name="k2go_content_summary">Content Exchange (вибраний вміст)</string>
+    <string name="k2go_clone_installed">Цей QR-код надає повну копію системи Knowledge to Go (Clone). Відкрийте Knowledge to Go, перейдіть до Clone і прийміть її.</string>
+    <string name="k2go_content_installed">Цей QR-код надає вибраний вміст Knowledge to Go. Відкрийте Knowledge to Go, перейдіть до Content Manager і прийміть його.</string>
+    <string name="k2go_clone_missing">Цей QR-код: повна копія системи Knowledge to Go (Clone). Knowledge to Go не встановлено: отримайте його в когось поруч, хто його має.</string>
+    <string name="k2go_content_missing">Цей QR-код надає вміст Knowledge to Go. Knowledge to Go не встановлено: отримайте його в когось поруч, хто його має.</string>
+    <string name="k2go_got_it">Зрозуміло</string>
 </resources>

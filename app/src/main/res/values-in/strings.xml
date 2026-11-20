@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Tidak ada aplikasi yang dapat membuka ini.</string>
     <string name="splash_powered_by">didukung oleh App Dev for All</string>
     <string name="wifi_already_saved">Jaringan ini sudah tersimpan di ponsel Anda.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Transfer Clone (salinan sistem lengkap)</string>
+    <string name="k2go_content_summary">Content Exchange (konten terpilih)</string>
+    <string name="k2go_clone_installed">QR ini membagikan salinan sistem Knowledge to Go lengkap (Clone). Buka Knowledge to Go, buka Clone, dan terima.</string>
+    <string name="k2go_content_installed">QR ini membagikan konten Knowledge to Go terpilih. Buka Knowledge to Go, buka Content Manager, dan terima.</string>
+    <string name="k2go_clone_missing">QR ini adalah salinan sistem Knowledge to Go lengkap (Clone). Knowledge to Go belum terpasang: dapatkan dari orang terdekat yang memilikinya.</string>
+    <string name="k2go_content_missing">QR ini membagikan konten Knowledge to Go. Knowledge to Go belum terpasang: dapatkan dari orang terdekat yang memilikinya.</string>
+    <string name="k2go_got_it">Mengerti</string>
 </resources>

@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Ingen app kan åpne dette.</string>
     <string name="splash_powered_by">levert av App Dev for All</string>
     <string name="wifi_already_saved">Dette nettverket er allerede lagret på telefonen din.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Clone-overføring (full systemkopi)</string>
+    <string name="k2go_content_summary">Content Exchange (valgt innhold)</string>
+    <string name="k2go_clone_installed">Denne QR-koden deler en full Knowledge to Go-systemkopi (Clone). Åpne Knowledge to Go, gå til Clone og motta den.</string>
+    <string name="k2go_content_installed">Denne QR-koden deler valgt Knowledge to Go-innhold. Åpne Knowledge to Go, gå til Content Manager og motta det.</string>
+    <string name="k2go_clone_missing">Denne QR-koden er en full Knowledge to Go-systemkopi (Clone). Knowledge to Go er ikke installert: få det fra noen i nærheten som har det.</string>
+    <string name="k2go_content_missing">Denne QR-koden deler Knowledge to Go-innhold. Knowledge to Go er ikke installert: få det fra noen i nærheten som har det.</string>
+    <string name="k2go_got_it">Forstått</string>
 </resources>

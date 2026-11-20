@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">આ ખોલી શકે એવી કોઈ ઍપ નથી.</string>
     <string name="splash_powered_by">App Dev for All દ્વારા સંચાલિત</string>
     <string name="wifi_already_saved">આ નેટવર્ક તમારા ફોનમાં પહેલેથી સાચવેલ છે.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Clone ટ્રાન્સફર (સંપૂર્ણ સિસ્ટમ કૉપિ)</string>
+    <string name="k2go_content_summary">Content Exchange (પસંદ કરેલી સામગ્રી)</string>
+    <string name="k2go_clone_installed">આ QR સંપૂર્ણ Knowledge to Go સિસ્ટમ કૉપિ શેર કરે છે (Clone). Knowledge to Go ખોલો, Clone પર જાઓ અને તેને પ્રાપ્ત કરો.</string>
+    <string name="k2go_content_installed">આ QR પસંદ કરેલી Knowledge to Go સામગ્રી શેર કરે છે. Knowledge to Go ખોલો, Content Manager પર જાઓ અને તેને પ્રાપ્ત કરો.</string>
+    <string name="k2go_clone_missing">આ QR સંપૂર્ણ Knowledge to Go સિસ્ટમ કૉપિ છે (Clone). Knowledge to Go ઇન્સ્ટૉલ નથી: તે નજીકના કોઈ પાસેથી મેળવો જેની પાસે તે છે.</string>
+    <string name="k2go_content_missing">આ QR Knowledge to Go સામગ્રી શેર કરે છે. Knowledge to Go ઇન્સ્ટૉલ નથી: તે નજીકના કોઈ પાસેથી મેળવો જેની પાસે તે છે.</string>
+    <string name="k2go_got_it">સમજાયું</string>
 </resources>

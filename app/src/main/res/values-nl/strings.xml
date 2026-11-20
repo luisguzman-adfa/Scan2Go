@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Geen app kan dit openen.</string>
     <string name="splash_powered_by">mogelijk gemaakt door App Dev for All</string>
     <string name="wifi_already_saved">Dit netwerk is al opgeslagen op je telefoon.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Clone-overdracht (volledige systeemkopie)</string>
+    <string name="k2go_content_summary">Content Exchange (geselecteerde inhoud)</string>
+    <string name="k2go_clone_installed">Deze QR deelt een volledige Knowledge to Go-systeemkopie (Clone). Open Knowledge to Go, ga naar Clone en ontvang deze.</string>
+    <string name="k2go_content_installed">Deze QR deelt geselecteerde Knowledge to Go-inhoud. Open Knowledge to Go, ga naar Content Manager en ontvang deze.</string>
+    <string name="k2go_clone_missing">Deze QR is een volledige Knowledge to Go-systeemkopie (Clone). Knowledge to Go is niet geïnstalleerd: vraag het aan iemand in de buurt die het heeft.</string>
+    <string name="k2go_content_missing">Deze QR deelt Knowledge to Go-inhoud. Knowledge to Go is niet geïnstalleerd: vraag het aan iemand in de buurt die het heeft.</string>
+    <string name="k2go_got_it">Begrepen</string>
 </resources>

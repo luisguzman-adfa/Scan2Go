@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Nicio aplicație nu poate deschide acest lucru.</string>
     <string name="splash_powered_by">oferit de App Dev for All</string>
     <string name="wifi_already_saved">Această rețea este deja salvată pe telefonul tău.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Transfer Clone (copie completă a sistemului)</string>
+    <string name="k2go_content_summary">Content Exchange (conținut selectat)</string>
+    <string name="k2go_clone_installed">Acest cod QR partajează o copie completă a sistemului Knowledge to Go (Clone). Deschide Knowledge to Go, mergi la Clone și primește-o.</string>
+    <string name="k2go_content_installed">Acest cod QR partajează conținut Knowledge to Go selectat. Deschide Knowledge to Go, mergi la Content Manager și primește-l.</string>
+    <string name="k2go_clone_missing">Acest cod QR este o copie completă a sistemului Knowledge to Go (Clone). Knowledge to Go nu este instalat: obține-l de la cineva din apropiere care îl are.</string>
+    <string name="k2go_content_missing">Acest cod QR partajează conținut Knowledge to Go. Knowledge to Go nu este instalat: obține-l de la cineva din apropiere care îl are.</string>
+    <string name="k2go_got_it">Am înțeles</string>
 </resources>

@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Bunu açabilecek uygulama yok.</string>
     <string name="splash_powered_by">App Dev for All tarafından</string>
     <string name="wifi_already_saved">Bu ağ telefonunuza zaten kaydedilmiş.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Clone aktarımı (tam sistem kopyası)</string>
+    <string name="k2go_content_summary">Content Exchange (seçili içerik)</string>
+    <string name="k2go_clone_installed">Bu QR, tam bir Knowledge to Go sistem kopyasını paylaşır (Clone). Knowledge to Go\'yu açın, Clone\'a gidin ve alın.</string>
+    <string name="k2go_content_installed">Bu QR, seçili Knowledge to Go içeriğini paylaşır. Knowledge to Go\'yu açın, Content Manager\'a gidin ve alın.</string>
+    <string name="k2go_clone_missing">Bu QR, tam bir Knowledge to Go sistem kopyasıdır (Clone). Knowledge to Go yüklü değil: yakınınızda sahip olan birinden edinin.</string>
+    <string name="k2go_content_missing">Bu QR, Knowledge to Go içeriğini paylaşır. Knowledge to Go yüklü değil: yakınınızda sahip olan birinden edinin.</string>
+    <string name="k2go_got_it">Anladım</string>
 </resources>

@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Tento obsah nedokáže otvoriť žiadna aplikácia.</string>
     <string name="splash_powered_by">od App Dev for All</string>
     <string name="wifi_already_saved">Táto sieť je už uložená v telefóne.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Prenos Clone (úplná kópia systému)</string>
+    <string name="k2go_content_summary">Content Exchange (vybraný obsah)</string>
+    <string name="k2go_clone_installed">Tento QR kód zdieľa úplnú kópiu systému Knowledge to Go (Clone). Otvorte Knowledge to Go, prejdite na Clone a prijmite ju.</string>
+    <string name="k2go_content_installed">Tento QR kód zdieľa vybraný obsah Knowledge to Go. Otvorte Knowledge to Go, prejdite na Content Manager a prijmite ho.</string>
+    <string name="k2go_clone_missing">Tento QR kód je úplná kópia systému Knowledge to Go (Clone). Knowledge to Go nie je nainštalované: získajte ho od niekoho nablízku, kto ho má.</string>
+    <string name="k2go_content_missing">Tento QR kód zdieľa obsah Knowledge to Go. Knowledge to Go nie je nainštalované: získajte ho od niekoho nablízku, kto ho má.</string>
+    <string name="k2go_got_it">Rozumiem</string>
 </resources>

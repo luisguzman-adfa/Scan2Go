@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Không có ứng dụng nào có thể mở nội dung này.</string>
     <string name="splash_powered_by">cung cấp bởi App Dev for All</string>
     <string name="wifi_already_saved">Mạng này đã được lưu trên điện thoại của bạn.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Chuyển Clone (bản sao toàn bộ hệ thống)</string>
+    <string name="k2go_content_summary">Content Exchange (nội dung đã chọn)</string>
+    <string name="k2go_clone_installed">Mã QR này chia sẻ một bản sao toàn bộ hệ thống Knowledge to Go (Clone). Mở Knowledge to Go, vào Clone và nhận.</string>
+    <string name="k2go_content_installed">Mã QR này chia sẻ nội dung Knowledge to Go đã chọn. Mở Knowledge to Go, vào Content Manager và nhận.</string>
+    <string name="k2go_clone_missing">Mã QR này là một bản sao toàn bộ hệ thống Knowledge to Go (Clone). Knowledge to Go chưa được cài đặt: hãy lấy từ ai đó ở gần đang có.</string>
+    <string name="k2go_content_missing">Mã QR này chia sẻ nội dung Knowledge to Go. Knowledge to Go chưa được cài đặt: hãy lấy từ ai đó ở gần đang có.</string>
+    <string name="k2go_got_it">Đã hiểu</string>
 </resources>

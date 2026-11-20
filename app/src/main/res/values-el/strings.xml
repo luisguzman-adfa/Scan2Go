@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Καμία εφαρμογή δεν μπορεί να το ανοίξει.</string>
     <string name="splash_powered_by">με την υποστήριξη της App Dev for All</string>
     <string name="wifi_already_saved">Αυτό το δίκτυο είναι ήδη αποθηκευμένο στο τηλέφωνό σας.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Μεταφορά Clone (πλήρες αντίγραφο συστήματος)</string>
+    <string name="k2go_content_summary">Content Exchange (επιλεγμένο περιεχόμενο)</string>
+    <string name="k2go_clone_installed">Αυτός ο κωδικός QR μοιράζεται ένα πλήρες αντίγραφο συστήματος του Knowledge to Go (Clone). Ανοίξτε το Knowledge to Go, μεταβείτε στο Clone και λάβετέ το.</string>
+    <string name="k2go_content_installed">Αυτός ο κωδικός QR μοιράζεται επιλεγμένο περιεχόμενο του Knowledge to Go. Ανοίξτε το Knowledge to Go, μεταβείτε στο Content Manager και λάβετέ το.</string>
+    <string name="k2go_clone_missing">Αυτός ο κωδικός QR είναι ένα πλήρες αντίγραφο συστήματος του Knowledge to Go (Clone). Το Knowledge to Go δεν είναι εγκατεστημένο: αποκτήστε το από κάποιον κοντά σας που το έχει.</string>
+    <string name="k2go_content_missing">Αυτός ο κωδικός QR μοιράζεται περιεχόμενο του Knowledge to Go. Το Knowledge to Go δεν είναι εγκατεστημένο: αποκτήστε το από κάποιον κοντά σας που το έχει.</string>
+    <string name="k2go_got_it">Το κατάλαβα</string>
 </resources>

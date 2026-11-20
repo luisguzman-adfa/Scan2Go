@@ -36,4 +36,12 @@
     <string name="no_app_to_handle">Ниједна апликација не може да отвори ово.</string>
     <string name="splash_powered_by">уз подршку App Dev for All</string>
     <string name="wifi_already_saved">Ова мрежа је већ сачувана на вашем телефону.</string>
+    <!-- Knowledge to Go hand-off (machine-translated; pending human review) -->
+    <string name="k2go_clone_summary">Пренос Clone (потпуна копија система)</string>
+    <string name="k2go_content_summary">Content Exchange (изабрани садржај)</string>
+    <string name="k2go_clone_installed">Овај QR код дели потпуну копију система Knowledge to Go (Clone). Отворите Knowledge to Go, идите на Clone и примите је.</string>
+    <string name="k2go_content_installed">Овај QR код дели изабрани садржај Knowledge to Go. Отворите Knowledge to Go, идите на Content Manager и примите га.</string>
+    <string name="k2go_clone_missing">Овај QR код је потпуна копија система Knowledge to Go (Clone). Knowledge to Go није инсталиран: набавите га од некога у близини ко га има.</string>
+    <string name="k2go_content_missing">Овај QR код дели садржај Knowledge to Go. Knowledge to Go није инсталиран: набавите га од некога у близини ко га има.</string>
+    <string name="k2go_got_it">Разумем</string>
 </resources>
